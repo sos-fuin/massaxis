@@ -1,0 +1,8446 @@
+@font-face {
+  font-style: normal;
+  font-weight: normal;
+  src: url('fonts/keenicons-duotone.eot?eut7fk');
+  src:
+    url('fonts/keenicons-duotone.eot?eut7fk#iefix') format('embedded-opentype'),
+    url('fonts/keenicons-duotone.ttf?eut7fk') format('truetype'),
+    url('fonts/keenicons-duotone.woff?eut7fk') format('woff'),
+    url('fonts/keenicons-duotone.svg?eut7fk#keenicons-duotone') format('svg');
+  font-family: 'keenicons-duotone';
+  font-display: block;
+}
+
+.ki-duotone {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'keenicons-duotone' !important;
+  speak: never;
+
+  display: inline-flex;
+  position: relative;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  direction: ltr;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ki-abstract-1 .path1:before {
+  opacity: 0.3;
+  content: '\e900';
+}
+.ki-abstract-1 .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\e901';
+}
+.ki-abstract-2 .path1:before {
+  opacity: 0.3;
+  content: '\e902';
+}
+.ki-abstract-2 .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\e903';
+}
+.ki-abstract-3 .path1:before {
+  opacity: 0.3;
+  content: '\e904';
+}
+.ki-abstract-3 .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\e905';
+}
+.ki-abstract-4 .path1:before {
+  opacity: 0.3;
+  content: '\e906';
+}
+.ki-abstract-4 .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\e907';
+}
+.ki-abstract-5 .path1:before {
+  opacity: 0.3;
+  content: '\e908';
+}
+.ki-abstract-5 .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\e909';
+}
+.ki-abstract-6:before {
+  content: '\e90a';
+}
+.ki-abstract-7 .path1:before {
+  opacity: 0.3;
+  content: '\e90b';
+}
+.ki-abstract-7 .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\e90c';
+}
+.ki-abstract-8 .path1:before {
+  opacity: 0.3;
+  content: '\e90d';
+}
+.ki-abstract-8 .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\e90e';
+}
+.ki-abstract-9 .path1:before {
+  opacity: 0.3;
+  content: '\e90f';
+}
+.ki-abstract-9 .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\e910';
+}
+.ki-abstract-10 .path1:before {
+  opacity: 0.3;
+  content: '\e911';
+}
+.ki-abstract-10 .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\e912';
+}
+.ki-abstract-11 .path1:before {
+  opacity: 0.3;
+  content: '\e913';
+}
+.ki-abstract-11 .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\e914';
+}
+.ki-abstract-12 .path1:before {
+  opacity: 0.3;
+  content: '\e915';
+}
+.ki-abstract-12 .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\e916';
+}
+.ki-abstract-13 .path1:before {
+  opacity: 0.3;
+  content: '\e917';
+}
+.ki-abstract-13 .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\e918';
+}
+.ki-abstract-14 .path1:before {
+  content: '\e919';
+}
+.ki-abstract-14 .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\e91a';
+}
+.ki-abstract-15 .path1:before {
+  opacity: 0.3;
+  content: '\e91b';
+}
+.ki-abstract-15 .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\e91c';
+}
+.ki-abstract-16 .path1:before {
+  opacity: 0.3;
+  content: '\e91d';
+}
+.ki-abstract-16 .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\e91e';
+}
+.ki-abstract-17 .path1:before {
+  content: '\e91f';
+}
+.ki-abstract-17 .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\e920';
+}
+.ki-abstract-18 .path1:before {
+  content: '\e921';
+}
+.ki-abstract-18 .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\e922';
+}
+.ki-abstract-19 .path1:before {
+  content: '\e923';
+}
+.ki-abstract-19 .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\e924';
+}
+.ki-abstract-20 .path1:before {
+  content: '\e925';
+}
+.ki-abstract-20 .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\e926';
+}
+.ki-abstract-21 .path1:before {
+  opacity: 0.3;
+  content: '\e927';
+}
+.ki-abstract-21 .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\e928';
+}
+.ki-abstract-22 .path1:before {
+  opacity: 0.3;
+  content: '\e929';
+}
+.ki-abstract-22 .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\e92a';
+}
+.ki-abstract-23 .path1:before {
+  opacity: 0.3;
+  content: '\e92b';
+}
+.ki-abstract-23 .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\e92c';
+}
+.ki-abstract-24 .path1:before {
+  content: '\e92d';
+}
+.ki-abstract-24 .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\e92e';
+}
+.ki-abstract-25 .path1:before {
+  opacity: 0.3;
+  content: '\e92f';
+}
+.ki-abstract-25 .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\e930';
+}
+.ki-abstract-26 .path1:before {
+  opacity: 0.3;
+  content: '\e931';
+}
+.ki-abstract-26 .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\e932';
+}
+.ki-abstract-27 .path1:before {
+  content: '\e933';
+}
+.ki-abstract-27 .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\e934';
+}
+.ki-abstract-28 .path1:before {
+  content: '\e935';
+}
+.ki-abstract-28 .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\e936';
+}
+.ki-abstract-29 .path1:before {
+  content: '\e937';
+}
+.ki-abstract-29 .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\e938';
+}
+.ki-abstract-30 .path1:before {
+  content: '\e939';
+}
+.ki-abstract-30 .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\e93a';
+}
+.ki-abstract-31 .path1:before {
+  content: '\e93b';
+}
+.ki-abstract-31 .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\e93c';
+}
+.ki-abstract-32 .path1:before {
+  content: '\e93d';
+}
+.ki-abstract-32 .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\e93e';
+}
+.ki-abstract-33 .path1:before {
+  opacity: 0.3;
+  content: '\e93f';
+}
+.ki-abstract-33 .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\e940';
+}
+.ki-abstract-34 .path1:before {
+  opacity: 0.3;
+  content: '\e941';
+}
+.ki-abstract-34 .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\e942';
+}
+.ki-abstract-35 .path1:before {
+  content: '\e943';
+}
+.ki-abstract-35 .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\e944';
+}
+.ki-abstract-36 .path1:before {
+  content: '\e945';
+}
+.ki-abstract-36 .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\e946';
+}
+.ki-abstract-37 .path1:before {
+  opacity: 0.3;
+  content: '\e947';
+}
+.ki-abstract-37 .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\e948';
+}
+.ki-abstract-38 .path1:before {
+  content: '\e949';
+}
+.ki-abstract-38 .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\e94a';
+}
+.ki-abstract-39 .path1:before {
+  opacity: 0.3;
+  content: '\e94b';
+}
+.ki-abstract-39 .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\e94c';
+}
+.ki-abstract-40 .path1:before {
+  content: '\e94d';
+}
+.ki-abstract-40 .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\e94e';
+}
+.ki-abstract-41 .path1:before {
+  content: '\e94f';
+}
+.ki-abstract-41 .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\e950';
+}
+.ki-abstract-42 .path1:before {
+  opacity: 0.3;
+  content: '\e951';
+}
+.ki-abstract-42 .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\e952';
+}
+.ki-abstract-43 .path1:before {
+  opacity: 0.3;
+  content: '\e953';
+}
+.ki-abstract-43 .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\e954';
+}
+.ki-abstract-44 .path1:before {
+  content: '\e955';
+}
+.ki-abstract-44 .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\e956';
+}
+.ki-abstract-45 .path1:before {
+  content: '\e957';
+}
+.ki-abstract-45 .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\e958';
+}
+.ki-abstract-46 .path1:before {
+  opacity: 0.3;
+  content: '\e959';
+}
+.ki-abstract-46 .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\e95a';
+}
+.ki-abstract-47 .path1:before {
+  opacity: 0.3;
+  content: '\e95b';
+}
+.ki-abstract-47 .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\e95c';
+}
+.ki-abstract-48 .path1:before {
+  opacity: 0.3;
+  content: '\e95d';
+}
+.ki-abstract-48 .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\e95e';
+}
+.ki-abstract-48 .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\e95f';
+}
+.ki-abstract-49 .path1:before {
+  opacity: 0.3;
+  content: '\e960';
+}
+.ki-abstract-49 .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\e961';
+}
+.ki-abstract-49 .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\e962';
+}
+.ki-abstract .path1:before {
+  opacity: 0.3;
+  content: '\e963';
+}
+.ki-abstract .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\e964';
+}
+.ki-add-files .path1:before {
+  content: '\e965';
+}
+.ki-add-files .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\e966';
+}
+.ki-add-files .path3:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\e967';
+}
+.ki-add-folder .path1:before {
+  opacity: 0.3;
+  content: '\e968';
+}
+.ki-add-folder .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\e969';
+}
+.ki-add-item .path1:before {
+  opacity: 0.3;
+  content: '\e96a';
+}
+.ki-add-item .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\e96b';
+}
+.ki-add-item .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\e96c';
+}
+.ki-add-notepad .path1:before {
+  opacity: 0.3;
+  content: '\e96d';
+}
+.ki-add-notepad .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\e96e';
+}
+.ki-add-notepad .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\e96f';
+}
+.ki-add-notepad .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\e970';
+}
+.ki-address-book .path1:before {
+  content: '\e971';
+}
+.ki-address-book .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\e972';
+}
+.ki-address-book .path3:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\e973';
+}
+.ki-airplane-square .path1:before {
+  opacity: 0.3;
+  content: '\e974';
+}
+.ki-airplane-square .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\e975';
+}
+.ki-airplane .path1:before {
+  opacity: 0.3;
+  content: '\e976';
+}
+.ki-airplane .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\e977';
+}
+.ki-airpod .path1:before {
+  opacity: 0.3;
+  content: '\e978';
+}
+.ki-airpod .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\e979';
+}
+.ki-airpod .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\e97a';
+}
+.ki-android .path1:before {
+  opacity: 0.3;
+  content: '\e97b';
+}
+.ki-android .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\e97c';
+}
+.ki-android .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\e97d';
+}
+.ki-android .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\e97e';
+}
+.ki-android .path5:before {
+  position: absolute;
+  left: 0;
+  content: '\e97f';
+}
+.ki-android .path6:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\e980';
+}
+.ki-angular .path1:before {
+  opacity: 0.3;
+  content: '\e981';
+}
+.ki-angular .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\e982';
+}
+.ki-angular .path3:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\e983';
+}
+.ki-apple .path1:before {
+  content: '\e984';
+}
+.ki-apple .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\e985';
+}
+.ki-archive-tick .path1:before {
+  opacity: 0.3;
+  content: '\e986';
+}
+.ki-archive-tick .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\e987';
+}
+.ki-archive .path1:before {
+  opacity: 0.3;
+  content: '\e988';
+}
+.ki-archive .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\e989';
+}
+.ki-archive .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\e98a';
+}
+.ki-arrow-circle-left .path1:before {
+  opacity: 0.3;
+  content: '\e98b';
+}
+.ki-arrow-circle-left .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\e98c';
+}
+.ki-arrow-circle-right .path1:before {
+  opacity: 0.3;
+  content: '\e98d';
+}
+.ki-arrow-circle-right .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\e98e';
+}
+.ki-arrow-diagonal .path1:before {
+  opacity: 0.3;
+  content: '\e98f';
+}
+.ki-arrow-diagonal .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\e990';
+}
+.ki-arrow-diagonal .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\e991';
+}
+.ki-arrow-down-left .path1:before {
+  content: '\e992';
+}
+.ki-arrow-down-left .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\e993';
+}
+.ki-arrow-down-refraction .path1:before {
+  opacity: 0.3;
+  content: '\e994';
+}
+.ki-arrow-down-refraction .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\e995';
+}
+.ki-arrow-down-right .path1:before {
+  content: '\e996';
+}
+.ki-arrow-down-right .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\e997';
+}
+.ki-arrow-down .path1:before {
+  content: '\e998';
+}
+.ki-arrow-down .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\e999';
+}
+.ki-arrow-left .path1:before {
+  content: '\e99a';
+}
+.ki-arrow-left .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\e99b';
+}
+.ki-arrow-mix .path1:before {
+  content: '\e99c';
+}
+.ki-arrow-mix .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\e99d';
+}
+.ki-arrow-right-left .path1:before {
+  opacity: 0.3;
+  content: '\e99e';
+}
+.ki-arrow-right-left .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\e99f';
+}
+.ki-arrow-right .path1:before {
+  content: '\e9a0';
+}
+.ki-arrow-right .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\e9a1';
+}
+.ki-arrow-two-diagonals .path1:before {
+  opacity: 0.3;
+  content: '\e9a2';
+}
+.ki-arrow-two-diagonals .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\e9a3';
+}
+.ki-arrow-two-diagonals .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\e9a4';
+}
+.ki-arrow-two-diagonals .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\e9a5';
+}
+.ki-arrow-two-diagonals .path5:before {
+  position: absolute;
+  left: 0;
+  content: '\e9a6';
+}
+.ki-arrow-up-down .path1:before {
+  opacity: 0.3;
+  content: '\e9a7';
+}
+.ki-arrow-up-down .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\e9a8';
+}
+.ki-arrow-up-left .path1:before {
+  content: '\e9a9';
+}
+.ki-arrow-up-left .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\e9aa';
+}
+.ki-arrow-up-refraction .path1:before {
+  opacity: 0.3;
+  content: '\e9ab';
+}
+.ki-arrow-up-refraction .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\e9ac';
+}
+.ki-arrow-up-right .path1:before {
+  content: '\e9ad';
+}
+.ki-arrow-up-right .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\e9ae';
+}
+.ki-arrow-up .path1:before {
+  content: '\e9af';
+}
+.ki-arrow-up .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\e9b0';
+}
+.ki-arrow-zigzag .path1:before {
+  content: '\e9b1';
+}
+.ki-arrow-zigzag .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\e9b2';
+}
+.ki-arrows-circle .path1:before {
+  opacity: 0.3;
+  content: '\e9b3';
+}
+.ki-arrows-circle .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\e9b4';
+}
+.ki-arrows-loop .path1:before {
+  opacity: 0.3;
+  content: '\e9b5';
+}
+.ki-arrows-loop .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\e9b6';
+}
+.ki-artificial-intelligence .path1:before {
+  opacity: 0.3;
+  content: '\e9b7';
+}
+.ki-artificial-intelligence .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\e9b8';
+}
+.ki-artificial-intelligence .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\e9b9';
+}
+.ki-artificial-intelligence .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\e9ba';
+}
+.ki-artificial-intelligence .path5:before {
+  position: absolute;
+  left: 0;
+  content: '\e9bb';
+}
+.ki-artificial-intelligence .path6:before {
+  position: absolute;
+  left: 0;
+  content: '\e9bc';
+}
+.ki-artificial-intelligence .path7:before {
+  position: absolute;
+  left: 0;
+  content: '\e9bd';
+}
+.ki-artificial-intelligence .path8:before {
+  position: absolute;
+  left: 0;
+  content: '\e9be';
+}
+.ki-auto-brightness .path1:before {
+  opacity: 0.3;
+  content: '\e9bf';
+}
+.ki-auto-brightness .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\e9c0';
+}
+.ki-auto-brightness .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\e9c1';
+}
+.ki-avalanche .path1:before {
+  opacity: 0.3;
+  content: '\e9c2';
+}
+.ki-avalanche .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\e9c3';
+}
+.ki-award .path1:before {
+  opacity: 0.3;
+  content: '\e9c4';
+}
+.ki-award .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\e9c5';
+}
+.ki-award .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\e9c6';
+}
+.ki-badge .path1:before {
+  opacity: 0.3;
+  content: '\e9c7';
+}
+.ki-badge .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\e9c8';
+}
+.ki-badge .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\e9c9';
+}
+.ki-badge .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\e9ca';
+}
+.ki-badge .path5:before {
+  position: absolute;
+  left: 0;
+  content: '\e9cb';
+}
+.ki-bandage .path1:before {
+  opacity: 0.3;
+  content: '\e9cc';
+}
+.ki-bandage .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\e9cd';
+}
+.ki-bank .path1:before {
+  opacity: 0.3;
+  content: '\e9ce';
+}
+.ki-bank .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\e9cf';
+}
+.ki-barcode .path1:before {
+  content: '\e9d0';
+}
+.ki-barcode .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\e9d1';
+}
+.ki-barcode .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\e9d2';
+}
+.ki-barcode .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\e9d3';
+}
+.ki-barcode .path5:before {
+  position: absolute;
+  left: 0;
+  content: '\e9d4';
+}
+.ki-barcode .path6:before {
+  position: absolute;
+  left: 0;
+  content: '\e9d5';
+}
+.ki-barcode .path7:before {
+  position: absolute;
+  left: 0;
+  content: '\e9d6';
+}
+.ki-barcode .path8:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\e9d7';
+}
+.ki-basket-ok .path1:before {
+  opacity: 0.3;
+  content: '\e9d8';
+}
+.ki-basket-ok .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\e9d9';
+}
+.ki-basket-ok .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\e9da';
+}
+.ki-basket-ok .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\e9db';
+}
+.ki-basket .path1:before {
+  opacity: 0.3;
+  content: '\e9dc';
+}
+.ki-basket .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\e9dd';
+}
+.ki-basket .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\e9de';
+}
+.ki-basket .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\e9df';
+}
+.ki-behance .path1:before {
+  content: '\e9e0';
+}
+.ki-behance .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\e9e1';
+}
+.ki-bill .path1:before {
+  opacity: 0.3;
+  content: '\e9e2';
+}
+.ki-bill .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\e9e3';
+}
+.ki-bill .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\e9e4';
+}
+.ki-bill .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\e9e5';
+}
+.ki-bill .path5:before {
+  position: absolute;
+  left: 0;
+  content: '\e9e6';
+}
+.ki-bill .path6:before {
+  position: absolute;
+  left: 0;
+  content: '\e9e7';
+}
+.ki-binance-usd .path1:before {
+  content: '\e9e8';
+}
+.ki-binance-usd .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\e9e9';
+}
+.ki-binance-usd .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\e9ea';
+}
+.ki-binance-usd .path4:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\e9eb';
+}
+.ki-binance .path1:before {
+  opacity: 0.3;
+  content: '\e9ec';
+}
+.ki-binance .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\e9ed';
+}
+.ki-binance .path3:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\e9ee';
+}
+.ki-binance .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\e9ef';
+}
+.ki-binance .path5:before {
+  position: absolute;
+  left: 0;
+  content: '\e9f0';
+}
+.ki-bitcoin .path1:before {
+  opacity: 0.3;
+  content: '\e9f1';
+}
+.ki-bitcoin .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\e9f2';
+}
+.ki-black-down:before {
+  content: '\e9f3';
+}
+.ki-black-left-line .path1:before {
+  content: '\e9f4';
+}
+.ki-black-left-line .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\e9f5';
+}
+.ki-black-left:before {
+  content: '\e9f6';
+}
+.ki-black-right-line .path1:before {
+  content: '\e9f7';
+}
+.ki-black-right-line .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\e9f8';
+}
+.ki-black-right:before {
+  content: '\e9f9';
+}
+.ki-black-up:before {
+  content: '\e9fa';
+}
+.ki-bluetooth .path1:before {
+  content: '\e9fb';
+}
+.ki-bluetooth .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\e9fc';
+}
+.ki-book-open .path1:before {
+  opacity: 0.3;
+  content: '\e9fd';
+}
+.ki-book-open .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\e9fe';
+}
+.ki-book-open .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\e9ff';
+}
+.ki-book-open .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\ea00';
+}
+.ki-book-square .path1:before {
+  opacity: 0.3;
+  content: '\ea01';
+}
+.ki-book-square .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ea02';
+}
+.ki-book-square .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ea03';
+}
+.ki-book .path1:before {
+  opacity: 0.3;
+  content: '\ea04';
+}
+.ki-book .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ea05';
+}
+.ki-book .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ea06';
+}
+.ki-book .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\ea07';
+}
+.ki-bookmark-2 .path1:before {
+  opacity: 0.3;
+  content: '\ea08';
+}
+.ki-bookmark-2 .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ea09';
+}
+.ki-bookmark .path1:before {
+  opacity: 0.3;
+  content: '\ea0a';
+}
+.ki-bookmark .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ea0b';
+}
+.ki-bootstrap .path1:before {
+  opacity: 0.3;
+  content: '\ea0c';
+}
+.ki-bootstrap .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ea0d';
+}
+.ki-bootstrap .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ea0e';
+}
+.ki-briefcase .path1:before {
+  opacity: 0.3;
+  content: '\ea0f';
+}
+.ki-briefcase .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ea10';
+}
+.ki-brifecase-cros .path1:before {
+  opacity: 0.3;
+  content: '\ea11';
+}
+.ki-brifecase-cros .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ea12';
+}
+.ki-brifecase-cros .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ea13';
+}
+.ki-brifecase-tick .path1:before {
+  opacity: 0.3;
+  content: '\ea14';
+}
+.ki-brifecase-tick .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ea15';
+}
+.ki-brifecase-tick .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ea16';
+}
+.ki-brifecase-timer .path1:before {
+  opacity: 0.3;
+  content: '\ea17';
+}
+.ki-brifecase-timer .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ea18';
+}
+.ki-brifecase-timer .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ea19';
+}
+.ki-brush .path1:before {
+  opacity: 0.3;
+  content: '\ea1a';
+}
+.ki-brush .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ea1b';
+}
+.ki-bucket-square .path1:before {
+  opacity: 0.3;
+  content: '\ea1c';
+}
+.ki-bucket-square .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ea1d';
+}
+.ki-bucket-square .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ea1e';
+}
+.ki-bucket .path1:before {
+  opacity: 0.3;
+  content: '\ea1f';
+}
+.ki-bucket .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ea20';
+}
+.ki-bucket .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ea21';
+}
+.ki-bucket .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\ea22';
+}
+.ki-burger-menu-1 .path1:before {
+  opacity: 0.3;
+  content: '\ea23';
+}
+.ki-burger-menu-1 .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ea24';
+}
+.ki-burger-menu-1 .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ea25';
+}
+.ki-burger-menu-1 .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\ea26';
+}
+.ki-burger-menu-2 .path1:before {
+  opacity: 0.3;
+  content: '\ea27';
+}
+.ki-burger-menu-2 .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ea28';
+}
+.ki-burger-menu-2 .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ea29';
+}
+.ki-burger-menu-2 .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\ea2a';
+}
+.ki-burger-menu-2 .path5:before {
+  position: absolute;
+  left: 0;
+  content: '\ea2b';
+}
+.ki-burger-menu-2 .path6:before {
+  position: absolute;
+  left: 0;
+  content: '\ea2c';
+}
+.ki-burger-menu-2 .path7:before {
+  position: absolute;
+  left: 0;
+  content: '\ea2d';
+}
+.ki-burger-menu-2 .path8:before {
+  position: absolute;
+  left: 0;
+  content: '\ea2e';
+}
+.ki-burger-menu-2 .path9:before {
+  position: absolute;
+  left: 0;
+  content: '\ea2f';
+}
+.ki-burger-menu-2 .path10:before {
+  position: absolute;
+  left: 0;
+  content: '\ea30';
+}
+.ki-burger-menu-3 .path1:before {
+  opacity: 0.3;
+  content: '\ea31';
+}
+.ki-burger-menu-3 .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ea32';
+}
+.ki-burger-menu-3 .path3:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ea33';
+}
+.ki-burger-menu-3 .path4:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ea34';
+}
+.ki-burger-menu-3 .path5:before {
+  position: absolute;
+  left: 0;
+  content: '\ea35';
+}
+.ki-burger-menu-3 .path6:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ea36';
+}
+.ki-burger-menu-3 .path7:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ea37';
+}
+.ki-burger-menu-3 .path8:before {
+  position: absolute;
+  left: 0;
+  content: '\ea38';
+}
+.ki-burger-menu-3 .path9:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ea39';
+}
+.ki-burger-menu-4:before {
+  content: '\ea3a';
+}
+.ki-burger-menu-5:before {
+  content: '\ea3b';
+}
+.ki-burger-menu-6:before {
+  content: '\ea3c';
+}
+.ki-burger-menu .path1:before {
+  opacity: 0.3;
+  content: '\ea3d';
+}
+.ki-burger-menu .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ea3e';
+}
+.ki-burger-menu .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ea3f';
+}
+.ki-burger-menu .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\ea40';
+}
+.ki-bus .path1:before {
+  opacity: 0.3;
+  content: '\ea41';
+}
+.ki-bus .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ea42';
+}
+.ki-bus .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ea43';
+}
+.ki-bus .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\ea44';
+}
+.ki-bus .path5:before {
+  position: absolute;
+  left: 0;
+  content: '\ea45';
+}
+.ki-calculator .path1:before {
+  opacity: 0.3;
+  content: '\ea46';
+}
+.ki-calculator .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ea47';
+}
+.ki-calculator .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ea48';
+}
+.ki-calculator .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\ea49';
+}
+.ki-calculator .path5:before {
+  position: absolute;
+  left: 0;
+  content: '\ea4a';
+}
+.ki-calculator .path6:before {
+  position: absolute;
+  left: 0;
+  content: '\ea4b';
+}
+.ki-calendar-2 .path1:before {
+  opacity: 0.3;
+  content: '\ea4c';
+}
+.ki-calendar-2 .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ea4d';
+}
+.ki-calendar-2 .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ea4e';
+}
+.ki-calendar-2 .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\ea4f';
+}
+.ki-calendar-2 .path5:before {
+  position: absolute;
+  left: 0;
+  content: '\ea50';
+}
+.ki-calendar-8 .path1:before {
+  opacity: 0.3;
+  content: '\ea51';
+}
+.ki-calendar-8 .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ea52';
+}
+.ki-calendar-8 .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ea53';
+}
+.ki-calendar-8 .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\ea54';
+}
+.ki-calendar-8 .path5:before {
+  position: absolute;
+  left: 0;
+  content: '\ea55';
+}
+.ki-calendar-8 .path6:before {
+  position: absolute;
+  left: 0;
+  content: '\ea56';
+}
+.ki-calendar-add .path1:before {
+  opacity: 0.3;
+  content: '\ea57';
+}
+.ki-calendar-add .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ea58';
+}
+.ki-calendar-add .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ea59';
+}
+.ki-calendar-add .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\ea5a';
+}
+.ki-calendar-add .path5:before {
+  position: absolute;
+  left: 0;
+  content: '\ea5b';
+}
+.ki-calendar-add .path6:before {
+  position: absolute;
+  left: 0;
+  content: '\ea5c';
+}
+.ki-calendar-edit .path1:before {
+  opacity: 0.3;
+  content: '\ea5d';
+}
+.ki-calendar-edit .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ea5e';
+}
+.ki-calendar-edit .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ea5f';
+}
+.ki-calendar-remove .path1:before {
+  opacity: 0.3;
+  content: '\ea60';
+}
+.ki-calendar-remove .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ea61';
+}
+.ki-calendar-remove .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ea62';
+}
+.ki-calendar-remove .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\ea63';
+}
+.ki-calendar-remove .path5:before {
+  position: absolute;
+  left: 0;
+  content: '\ea64';
+}
+.ki-calendar-remove .path6:before {
+  position: absolute;
+  left: 0;
+  content: '\ea65';
+}
+.ki-calendar-search .path1:before {
+  opacity: 0.3;
+  content: '\ea66';
+}
+.ki-calendar-search .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ea67';
+}
+.ki-calendar-search .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ea68';
+}
+.ki-calendar-search .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\ea69';
+}
+.ki-calendar-tick .path1:before {
+  opacity: 0.3;
+  content: '\ea6a';
+}
+.ki-calendar-tick .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ea6b';
+}
+.ki-calendar-tick .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ea6c';
+}
+.ki-calendar-tick .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\ea6d';
+}
+.ki-calendar-tick .path5:before {
+  position: absolute;
+  left: 0;
+  content: '\ea6e';
+}
+.ki-calendar-tick .path6:before {
+  position: absolute;
+  left: 0;
+  content: '\ea6f';
+}
+.ki-calendar .path1:before {
+  opacity: 0.3;
+  content: '\ea70';
+}
+.ki-calendar .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ea71';
+}
+.ki-call .path1:before {
+  opacity: 0.3;
+  content: '\ea72';
+}
+.ki-call .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ea73';
+}
+.ki-call .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ea74';
+}
+.ki-call .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\ea75';
+}
+.ki-call .path5:before {
+  position: absolute;
+  left: 0;
+  content: '\ea76';
+}
+.ki-call .path6:before {
+  position: absolute;
+  left: 0;
+  content: '\ea77';
+}
+.ki-call .path7:before {
+  position: absolute;
+  left: 0;
+  content: '\ea78';
+}
+.ki-call .path8:before {
+  position: absolute;
+  left: 0;
+  content: '\ea79';
+}
+.ki-capsule .path1:before {
+  opacity: 0.3;
+  content: '\ea7a';
+}
+.ki-capsule .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ea7b';
+}
+.ki-car-2 .path1:before {
+  content: '\ea7c';
+}
+.ki-car-2 .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ea7d';
+}
+.ki-car-2 .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ea7e';
+}
+.ki-car-2 .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\ea7f';
+}
+.ki-car-2 .path5:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ea80';
+}
+.ki-car-2 .path6:before {
+  position: absolute;
+  left: 0;
+  content: '\ea81';
+}
+.ki-car-3 .path1:before {
+  content: '\ea82';
+}
+.ki-car-3 .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ea83';
+}
+.ki-car-3 .path3:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ea84';
+}
+.ki-car .path1:before {
+  opacity: 0.3;
+  content: '\ea85';
+}
+.ki-car .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ea86';
+}
+.ki-car .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ea87';
+}
+.ki-car .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\ea88';
+}
+.ki-car .path5:before {
+  position: absolute;
+  left: 0;
+  content: '\ea89';
+}
+.ki-category .path1:before {
+  content: '\ea8a';
+}
+.ki-category .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ea8b';
+}
+.ki-category .path3:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ea8c';
+}
+.ki-category .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\ea8d';
+}
+.ki-cd .path1:before {
+  content: '\ea8e';
+}
+.ki-cd .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ea8f';
+}
+.ki-celsius .path1:before {
+  content: '\ea90';
+}
+.ki-celsius .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ea91';
+}
+.ki-chart-line-down-2 .path1:before {
+  opacity: 0.3;
+  content: '\ea92';
+}
+.ki-chart-line-down-2 .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ea93';
+}
+.ki-chart-line-down-2 .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ea94';
+}
+.ki-chart-line-down .path1:before {
+  opacity: 0.3;
+  content: '\ea95';
+}
+.ki-chart-line-down .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ea96';
+}
+.ki-chart-line-star .path1:before {
+  content: '\ea97';
+}
+.ki-chart-line-star .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ea98';
+}
+.ki-chart-line-star .path3:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ea99';
+}
+.ki-chart-line-up-2 .path1:before {
+  content: '\ea9a';
+}
+.ki-chart-line-up-2 .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ea9b';
+}
+.ki-chart-line-up .path1:before {
+  content: '\ea9c';
+}
+.ki-chart-line-up .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ea9d';
+}
+.ki-chart-line .path1:before {
+  opacity: 0.3;
+  content: '\ea9e';
+}
+.ki-chart-line .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ea9f';
+}
+.ki-chart-pie-3 .path1:before {
+  content: '\eaa0';
+}
+.ki-chart-pie-3 .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eaa1';
+}
+.ki-chart-pie-3 .path3:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eaa2';
+}
+.ki-chart-pie-4 .path1:before {
+  content: '\eaa3';
+}
+.ki-chart-pie-4 .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eaa4';
+}
+.ki-chart-pie-4 .path3:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eaa5';
+}
+.ki-chart-pie-simple .path1:before {
+  content: '\eaa6';
+}
+.ki-chart-pie-simple .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eaa7';
+}
+.ki-chart-pie-too .path1:before {
+  opacity: 0.3;
+  content: '\eaa8';
+}
+.ki-chart-pie-too .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\eaa9';
+}
+.ki-chart-simple-2 .path1:before {
+  opacity: 0.3;
+  content: '\eaaa';
+}
+.ki-chart-simple-2 .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eaab';
+}
+.ki-chart-simple-2 .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\eaac';
+}
+.ki-chart-simple-2 .path4:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eaad';
+}
+.ki-chart-simple-3 .path1:before {
+  opacity: 0.3;
+  content: '\eaae';
+}
+.ki-chart-simple-3 .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eaaf';
+}
+.ki-chart-simple-3 .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\eab0';
+}
+.ki-chart-simple-3 .path4:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eab1';
+}
+.ki-chart-simple .path1:before {
+  opacity: 0.3;
+  content: '\eab2';
+}
+.ki-chart-simple .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eab3';
+}
+.ki-chart-simple .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\eab4';
+}
+.ki-chart-simple .path4:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eab5';
+}
+.ki-chart .path1:before {
+  content: '\eab6';
+}
+.ki-chart .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eab7';
+}
+.ki-check-circle .path1:before {
+  opacity: 0.3;
+  content: '\eab8';
+}
+.ki-check-circle .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\eab9';
+}
+.ki-check-square .path1:before {
+  opacity: 0.3;
+  content: '\eaba';
+}
+.ki-check-square .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\eabb';
+}
+.ki-check:before {
+  content: '\eabc';
+}
+.ki-cheque .path1:before {
+  content: '\eabd';
+}
+.ki-cheque .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\eabe';
+}
+.ki-cheque .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\eabf';
+}
+.ki-cheque .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\eac0';
+}
+.ki-cheque .path5:before {
+  position: absolute;
+  left: 0;
+  content: '\eac1';
+}
+.ki-cheque .path6:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eac2';
+}
+.ki-cheque .path7:before {
+  position: absolute;
+  left: 0;
+  content: '\eac3';
+}
+.ki-chrome .path1:before {
+  opacity: 0.3;
+  content: '\eac4';
+}
+.ki-chrome .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\eac5';
+}
+.ki-classmates .path1:before {
+  content: '\eac6';
+}
+.ki-classmates .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eac7';
+}
+.ki-click .path1:before {
+  content: '\eac8';
+}
+.ki-click .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eac9';
+}
+.ki-click .path3:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eaca';
+}
+.ki-click .path4:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eacb';
+}
+.ki-click .path5:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eacc';
+}
+.ki-clipboard .path1:before {
+  opacity: 0.3;
+  content: '\eacd';
+}
+.ki-clipboard .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\eace';
+}
+.ki-clipboard .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\eacf';
+}
+.ki-cloud-add .path1:before {
+  content: '\ead0';
+}
+.ki-cloud-add .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ead1';
+}
+.ki-cloud-change .path1:before {
+  content: '\ead2';
+}
+.ki-cloud-change .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ead3';
+}
+.ki-cloud-change .path3:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ead4';
+}
+.ki-cloud-download .path1:before {
+  opacity: 0.3;
+  content: '\ead5';
+}
+.ki-cloud-download .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ead6';
+}
+.ki-cloud:before {
+  content: '\ead7';
+}
+.ki-code .path1:before {
+  opacity: 0.3;
+  content: '\ead8';
+}
+.ki-code .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ead9';
+}
+.ki-code .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\eada';
+}
+.ki-code .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\eadb';
+}
+.ki-coffee .path1:before {
+  opacity: 0.3;
+  content: '\eadc';
+}
+.ki-coffee .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\eadd';
+}
+.ki-coffee .path3:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eade';
+}
+.ki-coffee .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\eadf';
+}
+.ki-coffee .path5:before {
+  position: absolute;
+  left: 0;
+  content: '\eae0';
+}
+.ki-coffee .path6:before {
+  position: absolute;
+  left: 0;
+  content: '\eae1';
+}
+.ki-color-swatch .path1:before {
+  opacity: 0.3;
+  content: '\eae2';
+}
+.ki-color-swatch .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eae3';
+}
+.ki-color-swatch .path3:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eae4';
+}
+.ki-color-swatch .path4:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eae5';
+}
+.ki-color-swatch .path5:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eae6';
+}
+.ki-color-swatch .path6:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eae7';
+}
+.ki-color-swatch .path7:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eae8';
+}
+.ki-color-swatch .path8:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eae9';
+}
+.ki-color-swatch .path9:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eaea';
+}
+.ki-color-swatch .path10:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eaeb';
+}
+.ki-color-swatch .path11:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eaec';
+}
+.ki-color-swatch .path12:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eaed';
+}
+.ki-color-swatch .path13:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eaee';
+}
+.ki-color-swatch .path14:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eaef';
+}
+.ki-color-swatch .path15:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eaf0';
+}
+.ki-color-swatch .path16:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eaf1';
+}
+.ki-color-swatch .path17:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eaf2';
+}
+.ki-color-swatch .path18:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eaf3';
+}
+.ki-color-swatch .path19:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eaf4';
+}
+.ki-color-swatch .path20:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eaf5';
+}
+.ki-color-swatch .path21:before {
+  position: absolute;
+  left: 0;
+  content: '\eaf6';
+}
+.ki-colors-square .path1:before {
+  opacity: 0.3;
+  content: '\eaf7';
+}
+.ki-colors-square .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\eaf8';
+}
+.ki-colors-square .path3:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eaf9';
+}
+.ki-colors-square .path4:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eafa';
+}
+.ki-compass .path1:before {
+  content: '\eafb';
+}
+.ki-compass .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eafc';
+}
+.ki-copy-success .path1:before {
+  content: '\eafd';
+}
+.ki-copy-success .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eafe';
+}
+.ki-copy:before {
+  content: '\eaff';
+}
+.ki-courier-express .path1:before {
+  content: '\eb00';
+}
+.ki-courier-express .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\eb01';
+}
+.ki-courier-express .path3:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eb02';
+}
+.ki-courier-express .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\eb03';
+}
+.ki-courier-express .path5:before {
+  position: absolute;
+  left: 0;
+  content: '\eb04';
+}
+.ki-courier-express .path6:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eb05';
+}
+.ki-courier-express .path7:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eb06';
+}
+.ki-courier .path1:before {
+  content: '\eb07';
+}
+.ki-courier .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eb08';
+}
+.ki-courier .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\eb09';
+}
+.ki-credit-cart .path1:before {
+  opacity: 0.3;
+  content: '\eb0a';
+}
+.ki-credit-cart .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\eb0b';
+}
+.ki-cross-circle .path1:before {
+  opacity: 0.3;
+  content: '\eb0c';
+}
+.ki-cross-circle .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\eb0d';
+}
+.ki-cross-square .path1:before {
+  opacity: 0.3;
+  content: '\eb0e';
+}
+.ki-cross-square .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\eb0f';
+}
+.ki-cross .path1:before {
+  content: '\eb10';
+}
+.ki-cross .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eb11';
+}
+.ki-crown-2 .path1:before {
+  opacity: 0.3;
+  content: '\eb12';
+}
+.ki-crown-2 .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\eb13';
+}
+.ki-crown-2 .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\eb14';
+}
+.ki-crown .path1:before {
+  opacity: 0.3;
+  content: '\eb15';
+}
+.ki-crown .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\eb16';
+}
+.ki-css .path1:before {
+  opacity: 0.3;
+  content: '\eb17';
+}
+.ki-css .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\eb18';
+}
+.ki-cube-2 .path1:before {
+  opacity: 0.3;
+  content: '\eb19';
+}
+.ki-cube-2 .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eb1a';
+}
+.ki-cube-2 .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\eb1b';
+}
+.ki-cube-3 .path1:before {
+  opacity: 0.3;
+  content: '\eb1c';
+}
+.ki-cube-3 .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\eb1d';
+}
+.ki-cup .path1:before {
+  opacity: 0.3;
+  content: '\eb1e';
+}
+.ki-cup .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\eb1f';
+}
+.ki-dash .path1:before {
+  opacity: 0.3;
+  content: '\eb20';
+}
+.ki-dash .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\eb21';
+}
+.ki-data .path1:before {
+  content: '\eb22';
+}
+.ki-data .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\eb23';
+}
+.ki-data .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\eb24';
+}
+.ki-data .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\eb25';
+}
+.ki-data .path5:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eb26';
+}
+.ki-delete-files .path1:before {
+  content: '\eb27';
+}
+.ki-delete-files .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eb28';
+}
+.ki-delete-folder .path1:before {
+  opacity: 0.3;
+  content: '\eb29';
+}
+.ki-delete-folder .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\eb2a';
+}
+.ki-delivery-2 .path1:before {
+  opacity: 0.3;
+  content: '\eb2b';
+}
+.ki-delivery-2 .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\eb2c';
+}
+.ki-delivery-2 .path3:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eb2d';
+}
+.ki-delivery-2 .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\eb2e';
+}
+.ki-delivery-2 .path5:before {
+  position: absolute;
+  left: 0;
+  content: '\eb2f';
+}
+.ki-delivery-2 .path6:before {
+  position: absolute;
+  left: 0;
+  content: '\eb30';
+}
+.ki-delivery-2 .path7:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eb31';
+}
+.ki-delivery-2 .path8:before {
+  position: absolute;
+  left: 0;
+  content: '\eb32';
+}
+.ki-delivery-2 .path9:before {
+  position: absolute;
+  left: 0;
+  content: '\eb33';
+}
+.ki-delivery-3 .path1:before {
+  opacity: 0.3;
+  content: '\eb34';
+}
+.ki-delivery-3 .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\eb35';
+}
+.ki-delivery-3 .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\eb36';
+}
+.ki-delivery-24 .path1:before {
+  content: '\eb37';
+}
+.ki-delivery-24 .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eb38';
+}
+.ki-delivery-24 .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\eb39';
+}
+.ki-delivery-24 .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\eb3a';
+}
+.ki-delivery-door .path1:before {
+  opacity: 0.3;
+  content: '\eb3b';
+}
+.ki-delivery-door .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\eb3c';
+}
+.ki-delivery-door .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\eb3d';
+}
+.ki-delivery-door .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\eb3e';
+}
+.ki-delivery-geolocation .path1:before {
+  content: '\eb3f';
+}
+.ki-delivery-geolocation .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\eb40';
+}
+.ki-delivery-geolocation .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\eb41';
+}
+.ki-delivery-geolocation .path4:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eb42';
+}
+.ki-delivery-geolocation .path5:before {
+  position: absolute;
+  left: 0;
+  content: '\eb43';
+}
+.ki-delivery-time .path1:before {
+  content: '\eb44';
+}
+.ki-delivery-time .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\eb45';
+}
+.ki-delivery-time .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\eb46';
+}
+.ki-delivery-time .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\eb47';
+}
+.ki-delivery-time .path5:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eb48';
+}
+.ki-delivery .path1:before {
+  content: '\eb49';
+}
+.ki-delivery .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eb4a';
+}
+.ki-delivery .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\eb4b';
+}
+.ki-delivery .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\eb4c';
+}
+.ki-delivery .path5:before {
+  position: absolute;
+  left: 0;
+  content: '\eb4d';
+}
+.ki-design-2 .path1:before {
+  opacity: 0.3;
+  content: '\eb4e';
+}
+.ki-design-2 .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\eb4f';
+}
+.ki-design-frame .path1:before {
+  opacity: 0.3;
+  content: '\eb50';
+}
+.ki-design-frame .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\eb51';
+}
+.ki-design-mask .path1:before {
+  opacity: 0.3;
+  content: '\eb52';
+}
+.ki-design-mask .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\eb53';
+}
+.ki-design .path1:before {
+  opacity: 0.3;
+  content: '\eb54';
+}
+.ki-design .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\eb55';
+}
+.ki-devices-2 .path1:before {
+  opacity: 0.3;
+  content: '\eb56';
+}
+.ki-devices-2 .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\eb57';
+}
+.ki-devices-2 .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\eb58';
+}
+.ki-devices .path1:before {
+  opacity: 0.3;
+  content: '\eb59';
+}
+.ki-devices .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\eb5a';
+}
+.ki-devices .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\eb5b';
+}
+.ki-devices .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\eb5c';
+}
+.ki-devices .path5:before {
+  position: absolute;
+  left: 0;
+  content: '\eb5d';
+}
+.ki-diamonds .path1:before {
+  content: '\eb5e';
+}
+.ki-diamonds .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eb5f';
+}
+.ki-directbox-default .path1:before {
+  content: '\eb60';
+}
+.ki-directbox-default .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eb61';
+}
+.ki-directbox-default .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\eb62';
+}
+.ki-directbox-default .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\eb63';
+}
+.ki-disconnect .path1:before {
+  content: '\eb64';
+}
+.ki-disconnect .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eb65';
+}
+.ki-disconnect .path3:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eb66';
+}
+.ki-disconnect .path4:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eb67';
+}
+.ki-disconnect .path5:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eb68';
+}
+.ki-discount .path1:before {
+  opacity: 0.3;
+  content: '\eb69';
+}
+.ki-discount .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\eb6a';
+}
+.ki-disk .path1:before {
+  opacity: 0.3;
+  content: '\eb6b';
+}
+.ki-disk .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\eb6c';
+}
+.ki-dislike .path1:before {
+  content: '\eb6d';
+}
+.ki-dislike .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eb6e';
+}
+.ki-dj:before {
+  content: '\eb6f';
+}
+.ki-document .path1:before {
+  opacity: 0.3;
+  content: '\eb70';
+}
+.ki-document .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\eb71';
+}
+.ki-dollar .path1:before {
+  opacity: 0.3;
+  content: '\eb72';
+}
+.ki-dollar .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\eb73';
+}
+.ki-dollar .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\eb74';
+}
+.ki-dots-circle-vertical .path1:before {
+  opacity: 0.3;
+  content: '\eb75';
+}
+.ki-dots-circle-vertical .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\eb76';
+}
+.ki-dots-circle-vertical .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\eb77';
+}
+.ki-dots-circle-vertical .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\eb78';
+}
+.ki-dots-circle .path1:before {
+  opacity: 0.3;
+  content: '\eb79';
+}
+.ki-dots-circle .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\eb7a';
+}
+.ki-dots-circle .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\eb7b';
+}
+.ki-dots-circle .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\eb7c';
+}
+.ki-dots-horizontal .path1:before {
+  content: '\eb7d';
+}
+.ki-dots-horizontal .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eb7e';
+}
+.ki-dots-horizontal .path3:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eb7f';
+}
+.ki-dots-square-vertical .path1:before {
+  opacity: 0.3;
+  content: '\eb80';
+}
+.ki-dots-square-vertical .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\eb81';
+}
+.ki-dots-square-vertical .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\eb82';
+}
+.ki-dots-square-vertical .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\eb83';
+}
+.ki-dots-square .path1:before {
+  opacity: 0.3;
+  content: '\eb84';
+}
+.ki-dots-square .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\eb85';
+}
+.ki-dots-square .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\eb86';
+}
+.ki-dots-square .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\eb87';
+}
+.ki-dots-vertical .path1:before {
+  content: '\eb88';
+}
+.ki-dots-vertical .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eb89';
+}
+.ki-dots-vertical .path3:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eb8a';
+}
+.ki-double-check-circle .path1:before {
+  opacity: 0.3;
+  content: '\eb8b';
+}
+.ki-double-check-circle .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eb8c';
+}
+.ki-double-check-circle .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\eb8d';
+}
+.ki-double-check .path1:before {
+  content: '\eb8e';
+}
+.ki-double-check .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eb8f';
+}
+.ki-double-down .path1:before {
+  content: '\eb90';
+}
+.ki-double-down .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\eb91';
+}
+.ki-double-down .path3:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eb92';
+}
+.ki-double-left-arrow .path1:before {
+  opacity: 0.3;
+  content: '\eb93';
+}
+.ki-double-left-arrow .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\eb94';
+}
+.ki-double-left .path1:before {
+  content: '\eb95';
+}
+.ki-double-left .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eb96';
+}
+.ki-double-right-arrow .path1:before {
+  opacity: 0.3;
+  content: '\eb97';
+}
+.ki-double-right-arrow .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\eb98';
+}
+.ki-double-right .path1:before {
+  content: '\eb99';
+}
+.ki-double-right .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eb9a';
+}
+.ki-double-up .path1:before {
+  content: '\eb9b';
+}
+.ki-double-up .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\eb9c';
+}
+.ki-double-up .path3:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eb9d';
+}
+.ki-down-square .path1:before {
+  opacity: 0.3;
+  content: '\eb9e';
+}
+.ki-down-square .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\eb9f';
+}
+.ki-down:before {
+  content: '\eba0';
+}
+.ki-dribbble .path1:before {
+  content: '\eba1';
+}
+.ki-dribbble .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\eba2';
+}
+.ki-dribbble .path3:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eba3';
+}
+.ki-dribbble .path4:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eba4';
+}
+.ki-dribbble .path5:before {
+  position: absolute;
+  left: 0;
+  content: '\eba5';
+}
+.ki-dribbble .path6:before {
+  position: absolute;
+  left: 0;
+  content: '\eba6';
+}
+.ki-drop .path1:before {
+  content: '\eba7';
+}
+.ki-drop .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eba8';
+}
+.ki-dropbox .path1:before {
+  opacity: 0.4;
+  content: '\eba9';
+}
+.ki-dropbox .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.4;
+  content: '\ebaa';
+}
+.ki-dropbox .path3:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.4;
+  content: '\ebab';
+}
+.ki-dropbox .path4:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.4;
+  content: '\ebac';
+}
+.ki-dropbox .path5:before {
+  position: absolute;
+  left: 0;
+  content: '\ebad';
+}
+.ki-educare .path1:before {
+  opacity: 0.3;
+  content: '\ebae';
+}
+.ki-educare .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ebaf';
+}
+.ki-educare .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ebb0';
+}
+.ki-educare .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\ebb1';
+}
+.ki-electricity .path1:before {
+  content: '\ebb2';
+}
+.ki-electricity .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ebb3';
+}
+.ki-electricity .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ebb4';
+}
+.ki-electricity .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\ebb5';
+}
+.ki-electricity .path5:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ebb6';
+}
+.ki-electricity .path6:before {
+  position: absolute;
+  left: 0;
+  content: '\ebb7';
+}
+.ki-electricity .path7:before {
+  position: absolute;
+  left: 0;
+  content: '\ebb8';
+}
+.ki-electricity .path8:before {
+  position: absolute;
+  left: 0;
+  content: '\ebb9';
+}
+.ki-electricity .path9:before {
+  position: absolute;
+  left: 0;
+  content: '\ebba';
+}
+.ki-electricity .path10:before {
+  position: absolute;
+  left: 0;
+  content: '\ebbb';
+}
+.ki-electronic-clock .path1:before {
+  opacity: 0.3;
+  content: '\ebbc';
+}
+.ki-electronic-clock .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ebbd';
+}
+.ki-electronic-clock .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ebbe';
+}
+.ki-electronic-clock .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\ebbf';
+}
+.ki-element-1 .path1:before {
+  content: '\ebc0';
+}
+.ki-element-1 .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ebc1';
+}
+.ki-element-1 .path3:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ebc2';
+}
+.ki-element-1 .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\ebc3';
+}
+.ki-element-2 .path1:before {
+  content: '\ebc4';
+}
+.ki-element-2 .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ebc5';
+}
+.ki-element-3 .path1:before {
+  opacity: 0.3;
+  content: '\ebc6';
+}
+.ki-element-3 .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ebc7';
+}
+.ki-element-4 .path1:before {
+  content: '\ebc8';
+}
+.ki-element-4 .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ebc9';
+}
+.ki-element-5 .path1:before {
+  content: '\ebca';
+}
+.ki-element-5 .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ebcb';
+}
+.ki-element-6 .path1:before {
+  opacity: 0.3;
+  content: '\ebcc';
+}
+.ki-element-6 .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ebcd';
+}
+.ki-element-7 .path1:before {
+  content: '\ebce';
+}
+.ki-element-7 .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ebcf';
+}
+.ki-element-8 .path1:before {
+  opacity: 0.3;
+  content: '\ebd0';
+}
+.ki-element-8 .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ebd1';
+}
+.ki-element-9 .path1:before {
+  opacity: 0.3;
+  content: '\ebd2';
+}
+.ki-element-9 .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ebd3';
+}
+.ki-element-10 .path1:before {
+  content: '\ebd4';
+}
+.ki-element-10 .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ebd5';
+}
+.ki-element-10 .path3:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ebd6';
+}
+.ki-element-11 .path1:before {
+  content: '\ebd7';
+}
+.ki-element-11 .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ebd8';
+}
+.ki-element-11 .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ebd9';
+}
+.ki-element-11 .path4:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ebda';
+}
+.ki-element-12 .path1:before {
+  opacity: 0.3;
+  content: '\ebdb';
+}
+.ki-element-12 .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ebdc';
+}
+.ki-element-12 .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ebdd';
+}
+.ki-element-equal .path1:before {
+  content: '\ebde';
+}
+.ki-element-equal .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ebdf';
+}
+.ki-element-equal .path3:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ebe0';
+}
+.ki-element-equal .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\ebe1';
+}
+.ki-element-equal .path5:before {
+  position: absolute;
+  left: 0;
+  content: '\ebe2';
+}
+.ki-element-plus .path1:before {
+  content: '\ebe3';
+}
+.ki-element-plus .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ebe4';
+}
+.ki-element-plus .path3:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ebe5';
+}
+.ki-element-plus .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\ebe6';
+}
+.ki-element-plus .path5:before {
+  position: absolute;
+  left: 0;
+  content: '\ebe7';
+}
+.ki-emoji-happy .path1:before {
+  opacity: 0.3;
+  content: '\ebe8';
+}
+.ki-emoji-happy .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ebe9';
+}
+.ki-emoji-happy .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ebea';
+}
+.ki-emoji-happy .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\ebeb';
+}
+.ki-enjin-coin .path1:before {
+  content: '\ebec';
+}
+.ki-enjin-coin .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ebed';
+}
+.ki-entrance-left .path1:before {
+  content: '\ebee';
+}
+.ki-entrance-left .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ebef';
+}
+.ki-entrance-right .path1:before {
+  opacity: 0.3;
+  content: '\ebf0';
+}
+.ki-entrance-right .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ebf1';
+}
+.ki-eraser .path1:before {
+  opacity: 0.3;
+  content: '\ebf2';
+}
+.ki-eraser .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ebf3';
+}
+.ki-eraser .path3:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ebf4';
+}
+.ki-euro .path1:before {
+  opacity: 0.3;
+  content: '\ebf5';
+}
+.ki-euro .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ebf6';
+}
+.ki-euro .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ebf7';
+}
+.ki-exit-down .path1:before {
+  opacity: 0.3;
+  content: '\ebf8';
+}
+.ki-exit-down .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ebf9';
+}
+.ki-exit-left .path1:before {
+  opacity: 0.3;
+  content: '\ebfa';
+}
+.ki-exit-left .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ebfb';
+}
+.ki-exit-right-corner .path1:before {
+  opacity: 0.3;
+  content: '\ebfc';
+}
+.ki-exit-right-corner .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ebfd';
+}
+.ki-exit-right .path1:before {
+  opacity: 0.3;
+  content: '\ebfe';
+}
+.ki-exit-right .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ebff';
+}
+.ki-exit-up .path1:before {
+  opacity: 0.3;
+  content: '\ec00';
+}
+.ki-exit-up .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ec01';
+}
+.ki-external-drive .path1:before {
+  content: '\ec02';
+}
+.ki-external-drive .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ec03';
+}
+.ki-external-drive .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ec04';
+}
+.ki-external-drive .path4:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ec05';
+}
+.ki-external-drive .path5:before {
+  position: absolute;
+  left: 0;
+  content: '\ec06';
+}
+.ki-eye-slash .path1:before {
+  content: '\ec07';
+}
+.ki-eye-slash .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ec08';
+}
+.ki-eye-slash .path3:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ec09';
+}
+.ki-eye-slash .path4:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ec0a';
+}
+.ki-eye .path1:before {
+  content: '\ec0b';
+}
+.ki-eye .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ec0c';
+}
+.ki-eye .path3:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ec0d';
+}
+.ki-facebook .path1:before {
+  opacity: 0.3;
+  content: '\ec0e';
+}
+.ki-facebook .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ec0f';
+}
+.ki-faceid .path1:before {
+  opacity: 0.3;
+  content: '\ec10';
+}
+.ki-faceid .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ec11';
+}
+.ki-faceid .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ec12';
+}
+.ki-faceid .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\ec13';
+}
+.ki-faceid .path5:before {
+  position: absolute;
+  left: 0;
+  content: '\ec14';
+}
+.ki-faceid .path6:before {
+  position: absolute;
+  left: 0;
+  content: '\ec15';
+}
+.ki-fasten .path1:before {
+  opacity: 0.3;
+  content: '\ec16';
+}
+.ki-fasten .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ec17';
+}
+.ki-fat-rows .path1:before {
+  content: '\ec18';
+}
+.ki-fat-rows .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ec19';
+}
+.ki-feather .path1:before {
+  opacity: 0.3;
+  content: '\ec1a';
+}
+.ki-feather .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ec1b';
+}
+.ki-figma .path1:before {
+  opacity: 0.4;
+  content: '\ec1c';
+}
+.ki-figma .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.4;
+  content: '\ec1d';
+}
+.ki-figma .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ec1e';
+}
+.ki-figma .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\ec1f';
+}
+.ki-figma .path5:before {
+  position: absolute;
+  left: 0;
+  content: '\ec20';
+}
+.ki-file-added .path1:before {
+  content: '\ec21';
+}
+.ki-file-added .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ec22';
+}
+.ki-file-deleted .path1:before {
+  content: '\ec23';
+}
+.ki-file-deleted .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ec24';
+}
+.ki-file-down .path1:before {
+  opacity: 0.3;
+  content: '\ec25';
+}
+.ki-file-down .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ec26';
+}
+.ki-file-left .path1:before {
+  opacity: 0.3;
+  content: '\ec27';
+}
+.ki-file-left .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ec28';
+}
+.ki-file-right .path1:before {
+  opacity: 0.3;
+  content: '\ec29';
+}
+.ki-file-right .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ec2a';
+}
+.ki-file-sheet .path1:before {
+  content: '\ec2b';
+}
+.ki-file-sheet .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ec2c';
+}
+.ki-file-up .path1:before {
+  opacity: 0.3;
+  content: '\ec2d';
+}
+.ki-file-up .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ec2e';
+}
+.ki-file .path1:before {
+  content: '\ec2f';
+}
+.ki-file .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ec30';
+}
+.ki-files-tablet .path1:before {
+  content: '\ec31';
+}
+.ki-files-tablet .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ec32';
+}
+.ki-filter-edit .path1:before {
+  opacity: 0.3;
+  content: '\ec33';
+}
+.ki-filter-edit .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ec34';
+}
+.ki-filter-search .path1:before {
+  opacity: 0.3;
+  content: '\ec35';
+}
+.ki-filter-search .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ec36';
+}
+.ki-filter-search .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ec37';
+}
+.ki-filter-square .path1:before {
+  content: '\ec38';
+}
+.ki-filter-square .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ec39';
+}
+.ki-filter-tablet .path1:before {
+  opacity: 0.3;
+  content: '\ec3a';
+}
+.ki-filter-tablet .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ec3b';
+}
+.ki-filter-tick .path1:before {
+  opacity: 0.3;
+  content: '\ec3c';
+}
+.ki-filter-tick .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ec3d';
+}
+.ki-filter .path1:before {
+  content: '\ec3e';
+}
+.ki-filter .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ec3f';
+}
+.ki-finance-calculator .path1:before {
+  opacity: 0.3;
+  content: '\ec40';
+}
+.ki-finance-calculator .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ec41';
+}
+.ki-finance-calculator .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ec42';
+}
+.ki-finance-calculator .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\ec43';
+}
+.ki-finance-calculator .path5:before {
+  position: absolute;
+  left: 0;
+  content: '\ec44';
+}
+.ki-finance-calculator .path6:before {
+  position: absolute;
+  left: 0;
+  content: '\ec45';
+}
+.ki-finance-calculator .path7:before {
+  position: absolute;
+  left: 0;
+  content: '\ec46';
+}
+.ki-financial-schedule .path1:before {
+  opacity: 0.3;
+  content: '\ec47';
+}
+.ki-financial-schedule .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ec48';
+}
+.ki-financial-schedule .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ec49';
+}
+.ki-financial-schedule .path4:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ec4a';
+}
+.ki-fingerprint-scanning .path1:before {
+  content: '\ec4b';
+}
+.ki-fingerprint-scanning .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ec4c';
+}
+.ki-fingerprint-scanning .path3:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ec4d';
+}
+.ki-fingerprint-scanning .path4:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ec4e';
+}
+.ki-fingerprint-scanning .path5:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ec4f';
+}
+.ki-flag .path1:before {
+  opacity: 0.3;
+  content: '\ec50';
+}
+.ki-flag .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ec51';
+}
+.ki-flash-circle .path1:before {
+  opacity: 0.3;
+  content: '\ec52';
+}
+.ki-flash-circle .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ec53';
+}
+.ki-flask .path1:before {
+  opacity: 0.3;
+  content: '\ec54';
+}
+.ki-flask .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ec55';
+}
+.ki-focus .path1:before {
+  opacity: 0.3;
+  content: '\ec56';
+}
+.ki-focus .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ec57';
+}
+.ki-folder-added .path1:before {
+  opacity: 0.3;
+  content: '\ec58';
+}
+.ki-folder-added .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ec59';
+}
+.ki-folder-down .path1:before {
+  opacity: 0.3;
+  content: '\ec5a';
+}
+.ki-folder-down .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ec5b';
+}
+.ki-folder-up .path1:before {
+  opacity: 0.3;
+  content: '\ec5c';
+}
+.ki-folder-up .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ec5d';
+}
+.ki-folder .path1:before {
+  opacity: 0.3;
+  content: '\ec5e';
+}
+.ki-folder .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ec5f';
+}
+.ki-frame .path1:before {
+  content: '\ec60';
+}
+.ki-frame .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ec61';
+}
+.ki-frame .path3:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ec62';
+}
+.ki-frame .path4:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ec63';
+}
+.ki-gear .path1:before {
+  opacity: 0.3;
+  content: '\ec64';
+}
+.ki-gear .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ec65';
+}
+.ki-general-mouse .path1:before {
+  opacity: 0.3;
+  content: '\ec66';
+}
+.ki-general-mouse .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ec67';
+}
+.ki-geolocation-home .path1:before {
+  opacity: 0.3;
+  content: '\ec68';
+}
+.ki-geolocation-home .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ec69';
+}
+.ki-geolocation .path1:before {
+  opacity: 0.3;
+  content: '\ec6a';
+}
+.ki-geolocation .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ec6b';
+}
+.ki-ghost .path1:before {
+  content: '\ec6c';
+}
+.ki-ghost .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ec6d';
+}
+.ki-ghost .path3:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ec6e';
+}
+.ki-gift .path1:before {
+  opacity: 0.3;
+  content: '\ec6f';
+}
+.ki-gift .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ec70';
+}
+.ki-gift .path3:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ec71';
+}
+.ki-gift .path4:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ec72';
+}
+.ki-github .path1:before {
+  opacity: 0.3;
+  content: '\ec73';
+}
+.ki-github .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ec74';
+}
+.ki-glass .path1:before {
+  content: '\ec75';
+}
+.ki-glass .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ec76';
+}
+.ki-glass .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ec77';
+}
+.ki-google-play .path1:before {
+  opacity: 0.3;
+  content: '\ec78';
+}
+.ki-google-play .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ec79';
+}
+.ki-google .path1:before {
+  opacity: 0.3;
+  content: '\ec7a';
+}
+.ki-google .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ec7b';
+}
+.ki-graph-2 .path1:before {
+  opacity: 0.3;
+  content: '\ec7c';
+}
+.ki-graph-2 .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ec7d';
+}
+.ki-graph-2 .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ec7e';
+}
+.ki-graph-3 .path1:before {
+  opacity: 0.3;
+  content: '\ec7f';
+}
+.ki-graph-3 .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ec80';
+}
+.ki-graph-4 .path1:before {
+  content: '\ec81';
+}
+.ki-graph-4 .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ec82';
+}
+.ki-graph-up .path1:before {
+  opacity: 0.3;
+  content: '\ec83';
+}
+.ki-graph-up .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ec84';
+}
+.ki-graph-up .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ec85';
+}
+.ki-graph-up .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\ec86';
+}
+.ki-graph-up .path5:before {
+  position: absolute;
+  left: 0;
+  content: '\ec87';
+}
+.ki-graph-up .path6:before {
+  position: absolute;
+  left: 0;
+  content: '\ec88';
+}
+.ki-graph .path1:before {
+  opacity: 0.3;
+  content: '\ec89';
+}
+.ki-graph .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ec8a';
+}
+.ki-graph .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ec8b';
+}
+.ki-graph .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\ec8c';
+}
+.ki-grid-2 .path1:before {
+  opacity: 0.3;
+  content: '\ec8d';
+}
+.ki-grid-2 .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ec8e';
+}
+.ki-grid-frame .path1:before {
+  content: '\ec8f';
+}
+.ki-grid-frame .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ec90';
+}
+.ki-grid-frame .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ec91';
+}
+.ki-grid .path1:before {
+  opacity: 0.3;
+  content: '\ec92';
+}
+.ki-grid .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ec93';
+}
+.ki-handcart:before {
+  content: '\ec94';
+}
+.ki-happy-emoji .path1:before {
+  opacity: 0.3;
+  content: '\ec95';
+}
+.ki-happy-emoji .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ec96';
+}
+.ki-heart-circle .path1:before {
+  opacity: 0.3;
+  content: '\ec97';
+}
+.ki-heart-circle .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ec98';
+}
+.ki-heart .path1:before {
+  opacity: 0.3;
+  content: '\ec99';
+}
+.ki-heart .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ec9a';
+}
+.ki-home-1 .path1:before {
+  opacity: 0.3;
+  content: '\ec9b';
+}
+.ki-home-1 .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ec9c';
+}
+.ki-home-2 .path1:before {
+  opacity: 0.3;
+  content: '\ec9d';
+}
+.ki-home-2 .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ec9e';
+}
+.ki-home-3 .path1:before {
+  opacity: 0.3;
+  content: '\ec9f';
+}
+.ki-home-3 .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\eca0';
+}
+.ki-home:before {
+  content: '\eca1';
+}
+.ki-html .path1:before {
+  opacity: 0.3;
+  content: '\eca2';
+}
+.ki-html .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\eca3';
+}
+.ki-icon .path1:before {
+  opacity: 0.3;
+  content: '\eca4';
+}
+.ki-icon .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\eca5';
+}
+.ki-icon .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\eca6';
+}
+.ki-illustrator .path1:before {
+  opacity: 0.3;
+  content: '\eca7';
+}
+.ki-illustrator .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\eca8';
+}
+.ki-illustrator .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\eca9';
+}
+.ki-illustrator .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\ecaa';
+}
+.ki-information-2 .path1:before {
+  opacity: 0.3;
+  content: '\ecab';
+}
+.ki-information-2 .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ecac';
+}
+.ki-information-2 .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ecad';
+}
+.ki-information-3 .path1:before {
+  opacity: 0.3;
+  content: '\ecae';
+}
+.ki-information-3 .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ecaf';
+}
+.ki-information-3 .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ecb0';
+}
+.ki-information-4 .path1:before {
+  opacity: 0.3;
+  content: '\ecb1';
+}
+.ki-information-4 .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ecb2';
+}
+.ki-information-4 .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ecb3';
+}
+.ki-information-5 .path1:before {
+  opacity: 0.3;
+  content: '\ecb4';
+}
+.ki-information-5 .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ecb5';
+}
+.ki-information-5 .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ecb6';
+}
+.ki-information .path1:before {
+  opacity: 0.3;
+  content: '\ecb7';
+}
+.ki-information .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ecb8';
+}
+.ki-information .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ecb9';
+}
+.ki-instagram .path1:before {
+  opacity: 0.3;
+  content: '\ecba';
+}
+.ki-instagram .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ecbb';
+}
+.ki-joystick .path1:before {
+  content: '\ecbc';
+}
+.ki-joystick .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ecbd';
+}
+.ki-joystick .path3:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ecbe';
+}
+.ki-joystick .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\ecbf';
+}
+.ki-js-2 .path1:before {
+  content: '\ecc0';
+}
+.ki-js-2 .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ecc1';
+}
+.ki-js .path1:before {
+  content: '\ecc2';
+}
+.ki-js .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ecc3';
+}
+.ki-kanban .path1:before {
+  content: '\ecc4';
+}
+.ki-kanban .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ecc5';
+}
+.ki-key-square .path1:before {
+  opacity: 0.3;
+  content: '\ecc6';
+}
+.ki-key-square .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ecc7';
+}
+.ki-key .path1:before {
+  opacity: 0.3;
+  content: '\ecc8';
+}
+.ki-key .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ecc9';
+}
+.ki-keyboard .path1:before {
+  content: '\ecca';
+}
+.ki-keyboard .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eccb';
+}
+.ki-laptop .path1:before {
+  opacity: 0.3;
+  content: '\eccc';
+}
+.ki-laptop .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\eccd';
+}
+.ki-laravel .path1:before {
+  opacity: 0.3;
+  content: '\ecce';
+}
+.ki-laravel .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eccf';
+}
+.ki-laravel .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ecd0';
+}
+.ki-laravel .path4:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ecd1';
+}
+.ki-laravel .path5:before {
+  position: absolute;
+  left: 0;
+  content: '\ecd2';
+}
+.ki-laravel .path6:before {
+  position: absolute;
+  left: 0;
+  content: '\ecd3';
+}
+.ki-laravel .path7:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ecd4';
+}
+.ki-left-square .path1:before {
+  opacity: 0.3;
+  content: '\ecd5';
+}
+.ki-left-square .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ecd6';
+}
+.ki-left:before {
+  content: '\ecd7';
+}
+.ki-like-2 .path1:before {
+  opacity: 0.3;
+  content: '\ecd8';
+}
+.ki-like-2 .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ecd9';
+}
+.ki-like-folder .path1:before {
+  opacity: 0.3;
+  content: '\ecda';
+}
+.ki-like-folder .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ecdb';
+}
+.ki-like-shapes .path1:before {
+  opacity: 0.3;
+  content: '\ecdc';
+}
+.ki-like-shapes .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ecdd';
+}
+.ki-like-tag .path1:before {
+  opacity: 0.3;
+  content: '\ecde';
+}
+.ki-like-tag .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ecdf';
+}
+.ki-like .path1:before {
+  content: '\ece0';
+}
+.ki-like .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ece1';
+}
+.ki-loading .path1:before {
+  content: '\ece2';
+}
+.ki-loading .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ece3';
+}
+.ki-lock-2 .path1:before {
+  content: '\ece4';
+}
+.ki-lock-2 .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ece5';
+}
+.ki-lock-2 .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ece6';
+}
+.ki-lock-2 .path4:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ece7';
+}
+.ki-lock-2 .path5:before {
+  position: absolute;
+  left: 0;
+  content: '\ece8';
+}
+.ki-lock-3 .path1:before {
+  opacity: 0.3;
+  content: '\ece9';
+}
+.ki-lock-3 .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ecea';
+}
+.ki-lock-3 .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\eceb';
+}
+.ki-lock .path1:before {
+  opacity: 0.3;
+  content: '\ecec';
+}
+.ki-lock .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\eced';
+}
+.ki-lock .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ecee';
+}
+.ki-logistic .path1:before {
+  opacity: 0.3;
+  content: '\ecef';
+}
+.ki-logistic .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ecf0';
+}
+.ki-logistic .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ecf1';
+}
+.ki-logistic .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\ecf2';
+}
+.ki-logistic .path5:before {
+  position: absolute;
+  left: 0;
+  content: '\ecf3';
+}
+.ki-logistic .path6:before {
+  position: absolute;
+  left: 0;
+  content: '\ecf4';
+}
+.ki-logistic .path7:before {
+  position: absolute;
+  left: 0;
+  content: '\ecf5';
+}
+.ki-lots-shopping .path1:before {
+  opacity: 0.3;
+  content: '\ecf6';
+}
+.ki-lots-shopping .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ecf7';
+}
+.ki-lots-shopping .path3:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ecf8';
+}
+.ki-lots-shopping .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\ecf9';
+}
+.ki-lots-shopping .path5:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ecfa';
+}
+.ki-lots-shopping .path6:before {
+  position: absolute;
+  left: 0;
+  content: '\ecfb';
+}
+.ki-lots-shopping .path7:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ecfc';
+}
+.ki-lots-shopping .path8:before {
+  position: absolute;
+  left: 0;
+  content: '\ecfd';
+}
+.ki-lovely .path1:before {
+  opacity: 0.3;
+  content: '\ecfe';
+}
+.ki-lovely .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ecff';
+}
+.ki-lts .path1:before {
+  content: '\ed00';
+}
+.ki-lts .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ed01';
+}
+.ki-magnifier .path1:before {
+  opacity: 0.3;
+  content: '\ed02';
+}
+.ki-magnifier .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ed03';
+}
+.ki-map .path1:before {
+  opacity: 0.3;
+  content: '\ed04';
+}
+.ki-map .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ed05';
+}
+.ki-map .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ed06';
+}
+.ki-mask .path1:before {
+  opacity: 0.3;
+  content: '\ed07';
+}
+.ki-mask .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ed08';
+}
+.ki-mask .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ed09';
+}
+.ki-maximize .path1:before {
+  opacity: 0.3;
+  content: '\ed0a';
+}
+.ki-maximize .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ed0b';
+}
+.ki-maximize .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ed0c';
+}
+.ki-maximize .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\ed0d';
+}
+.ki-maximize .path5:before {
+  position: absolute;
+  left: 0;
+  content: '\ed0e';
+}
+.ki-medal-star .path1:before {
+  content: '\ed0f';
+}
+.ki-medal-star .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ed10';
+}
+.ki-medal-star .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ed11';
+}
+.ki-medal-star .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\ed12';
+}
+.ki-menu .path1:before {
+  opacity: 0.3;
+  content: '\ed13';
+}
+.ki-menu .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ed14';
+}
+.ki-menu .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ed15';
+}
+.ki-menu .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\ed16';
+}
+.ki-message-add .path1:before {
+  opacity: 0.3;
+  content: '\ed17';
+}
+.ki-message-add .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ed18';
+}
+.ki-message-add .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ed19';
+}
+.ki-message-edit .path1:before {
+  opacity: 0.3;
+  content: '\ed1a';
+}
+.ki-message-edit .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ed1b';
+}
+.ki-message-minus .path1:before {
+  opacity: 0.3;
+  content: '\ed1c';
+}
+.ki-message-minus .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ed1d';
+}
+.ki-message-notif .path1:before {
+  content: '\ed1e';
+}
+.ki-message-notif .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ed1f';
+}
+.ki-message-notif .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ed20';
+}
+.ki-message-notif .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\ed21';
+}
+.ki-message-notif .path5:before {
+  position: absolute;
+  left: 0;
+  content: '\ed22';
+}
+.ki-message-programming .path1:before {
+  opacity: 0.3;
+  content: '\ed23';
+}
+.ki-message-programming .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ed24';
+}
+.ki-message-programming .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ed25';
+}
+.ki-message-programming .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\ed26';
+}
+.ki-message-question .path1:before {
+  opacity: 0.3;
+  content: '\ed27';
+}
+.ki-message-question .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ed28';
+}
+.ki-message-question .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ed29';
+}
+.ki-message-text-2 .path1:before {
+  opacity: 0.3;
+  content: '\ed2a';
+}
+.ki-message-text-2 .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ed2b';
+}
+.ki-message-text-2 .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ed2c';
+}
+.ki-message-text .path1:before {
+  opacity: 0.3;
+  content: '\ed2d';
+}
+.ki-message-text .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ed2e';
+}
+.ki-message-text .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ed2f';
+}
+.ki-messages .path1:before {
+  content: '\ed30';
+}
+.ki-messages .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ed31';
+}
+.ki-messages .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ed32';
+}
+.ki-messages .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\ed33';
+}
+.ki-messages .path5:before {
+  position: absolute;
+  left: 0;
+  content: '\ed34';
+}
+.ki-microsoft .path1:before {
+  opacity: 0.3;
+  content: '\ed35';
+}
+.ki-microsoft .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ed36';
+}
+.ki-microsoft .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ed37';
+}
+.ki-microsoft .path4:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ed38';
+}
+.ki-milk .path1:before {
+  opacity: 0.3;
+  content: '\ed39';
+}
+.ki-milk .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ed3a';
+}
+.ki-milk .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ed3b';
+}
+.ki-minus-circle .path1:before {
+  opacity: 0.3;
+  content: '\ed3c';
+}
+.ki-minus-circle .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ed3d';
+}
+.ki-minus-folder .path1:before {
+  opacity: 0.3;
+  content: '\ed3e';
+}
+.ki-minus-folder .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ed3f';
+}
+.ki-minus-square .path1:before {
+  opacity: 0.3;
+  content: '\ed40';
+}
+.ki-minus-square .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ed41';
+}
+.ki-minus:before {
+  content: '\ed42';
+}
+.ki-monitor-mobile .path1:before {
+  opacity: 0.3;
+  content: '\ed43';
+}
+.ki-monitor-mobile .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ed44';
+}
+.ki-moon .path1:before {
+  content: '\ed45';
+}
+.ki-moon .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ed46';
+}
+.ki-more-2 .path1:before {
+  opacity: 0.3;
+  content: '\ed47';
+}
+.ki-more-2 .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ed48';
+}
+.ki-more-2 .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ed49';
+}
+.ki-more-2 .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\ed4a';
+}
+.ki-mouse-circle .path1:before {
+  content: '\ed4b';
+}
+.ki-mouse-circle .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ed4c';
+}
+.ki-mouse-square .path1:before {
+  opacity: 0.3;
+  content: '\ed4d';
+}
+.ki-mouse-square .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ed4e';
+}
+.ki-mouse .path1:before {
+  opacity: 0.3;
+  content: '\ed4f';
+}
+.ki-mouse .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ed50';
+}
+.ki-nexo .path1:before {
+  opacity: 0.3;
+  content: '\ed51';
+}
+.ki-nexo .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ed52';
+}
+.ki-night-day .path1:before {
+  content: '\ed53';
+}
+.ki-night-day .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ed54';
+}
+.ki-night-day .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ed55';
+}
+.ki-night-day .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\ed56';
+}
+.ki-night-day .path5:before {
+  position: absolute;
+  left: 0;
+  content: '\ed57';
+}
+.ki-night-day .path6:before {
+  position: absolute;
+  left: 0;
+  content: '\ed58';
+}
+.ki-night-day .path7:before {
+  position: absolute;
+  left: 0;
+  content: '\ed59';
+}
+.ki-night-day .path8:before {
+  position: absolute;
+  left: 0;
+  content: '\ed5a';
+}
+.ki-night-day .path9:before {
+  position: absolute;
+  left: 0;
+  content: '\ed5b';
+}
+.ki-night-day .path10:before {
+  position: absolute;
+  left: 0;
+  content: '\ed5c';
+}
+.ki-note-2 .path1:before {
+  opacity: 0.3;
+  content: '\ed5d';
+}
+.ki-note-2 .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ed5e';
+}
+.ki-note-2 .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ed5f';
+}
+.ki-note-2 .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\ed60';
+}
+.ki-note .path1:before {
+  opacity: 0.3;
+  content: '\ed61';
+}
+.ki-note .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ed62';
+}
+.ki-notepad-bookmark .path1:before {
+  content: '\ed63';
+}
+.ki-notepad-bookmark .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ed64';
+}
+.ki-notepad-bookmark .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ed65';
+}
+.ki-notepad-bookmark .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\ed66';
+}
+.ki-notepad-bookmark .path5:before {
+  position: absolute;
+  left: 0;
+  content: '\ed67';
+}
+.ki-notepad-bookmark .path6:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ed68';
+}
+.ki-notepad-edit .path1:before {
+  opacity: 0.3;
+  content: '\ed69';
+}
+.ki-notepad-edit .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ed6a';
+}
+.ki-notepad .path1:before {
+  content: '\ed6b';
+}
+.ki-notepad .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ed6c';
+}
+.ki-notepad .path3:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ed6d';
+}
+.ki-notepad .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\ed6e';
+}
+.ki-notepad .path5:before {
+  position: absolute;
+  left: 0;
+  content: '\ed6f';
+}
+.ki-notification-2 .path1:before {
+  content: '\ed70';
+}
+.ki-notification-2 .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ed71';
+}
+.ki-notification-bing .path1:before {
+  content: '\ed72';
+}
+.ki-notification-bing .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ed73';
+}
+.ki-notification-bing .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ed74';
+}
+.ki-notification-circle .path1:before {
+  content: '\ed75';
+}
+.ki-notification-circle .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ed76';
+}
+.ki-notification-favorite .path1:before {
+  content: '\ed77';
+}
+.ki-notification-favorite .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ed78';
+}
+.ki-notification-favorite .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ed79';
+}
+.ki-notification-on .path1:before {
+  opacity: 0.3;
+  content: '\ed7a';
+}
+.ki-notification-on .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ed7b';
+}
+.ki-notification-on .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ed7c';
+}
+.ki-notification-on .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\ed7d';
+}
+.ki-notification-on .path5:before {
+  position: absolute;
+  left: 0;
+  content: '\ed7e';
+}
+.ki-notification-status .path1:before {
+  content: '\ed7f';
+}
+.ki-notification-status .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ed80';
+}
+.ki-notification-status .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ed81';
+}
+.ki-notification-status .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\ed82';
+}
+.ki-notification .path1:before {
+  opacity: 0.3;
+  content: '\ed83';
+}
+.ki-notification .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ed84';
+}
+.ki-notification .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ed85';
+}
+.ki-ocean .path1:before {
+  content: '\ed86';
+}
+.ki-ocean .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ed87';
+}
+.ki-ocean .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ed88';
+}
+.ki-ocean .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\ed89';
+}
+.ki-ocean .path5:before {
+  position: absolute;
+  left: 0;
+  content: '\ed8a';
+}
+.ki-ocean .path6:before {
+  position: absolute;
+  left: 0;
+  content: '\ed8b';
+}
+.ki-ocean .path7:before {
+  position: absolute;
+  left: 0;
+  content: '\ed8c';
+}
+.ki-ocean .path8:before {
+  position: absolute;
+  left: 0;
+  content: '\ed8d';
+}
+.ki-ocean .path9:before {
+  position: absolute;
+  left: 0;
+  content: '\ed8e';
+}
+.ki-ocean .path10:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ed8f';
+}
+.ki-ocean .path11:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ed90';
+}
+.ki-ocean .path12:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ed91';
+}
+.ki-ocean .path13:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ed92';
+}
+.ki-ocean .path14:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ed93';
+}
+.ki-ocean .path15:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ed94';
+}
+.ki-ocean .path16:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ed95';
+}
+.ki-ocean .path17:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ed96';
+}
+.ki-ocean .path18:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ed97';
+}
+.ki-ocean .path19:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ed98';
+}
+.ki-office-bag .path1:before {
+  opacity: 0.3;
+  content: '\ed99';
+}
+.ki-office-bag .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ed9a';
+}
+.ki-office-bag .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ed9b';
+}
+.ki-office-bag .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\ed9c';
+}
+.ki-package .path1:before {
+  opacity: 0.3;
+  content: '\ed9d';
+}
+.ki-package .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ed9e';
+}
+.ki-package .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ed9f';
+}
+.ki-pails .path1:before {
+  opacity: 0.3;
+  content: '\eda0';
+}
+.ki-pails .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\eda1';
+}
+.ki-pails .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\eda2';
+}
+.ki-pails .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\eda3';
+}
+.ki-pails .path5:before {
+  position: absolute;
+  left: 0;
+  content: '\eda4';
+}
+.ki-pails .path6:before {
+  position: absolute;
+  left: 0;
+  content: '\eda5';
+}
+.ki-pails .path7:before {
+  position: absolute;
+  left: 0;
+  content: '\eda6';
+}
+.ki-pails .path8:before {
+  position: absolute;
+  left: 0;
+  content: '\eda7';
+}
+.ki-pails .path9:before {
+  position: absolute;
+  left: 0;
+  content: '\eda8';
+}
+.ki-paintbucket .path1:before {
+  opacity: 0.3;
+  content: '\eda9';
+}
+.ki-paintbucket .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\edaa';
+}
+.ki-paintbucket .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\edab';
+}
+.ki-paper-clip:before {
+  content: '\edac';
+}
+.ki-parcel-tracking .path1:before {
+  content: '\edad';
+}
+.ki-parcel-tracking .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\edae';
+}
+.ki-parcel-tracking .path3:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\edaf';
+}
+.ki-parcel .path1:before {
+  opacity: 0.3;
+  content: '\edb0';
+}
+.ki-parcel .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\edb1';
+}
+.ki-parcel .path3:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\edb2';
+}
+.ki-parcel .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\edb3';
+}
+.ki-parcel .path5:before {
+  position: absolute;
+  left: 0;
+  content: '\edb4';
+}
+.ki-password-check .path1:before {
+  content: '\edb5';
+}
+.ki-password-check .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\edb6';
+}
+.ki-password-check .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\edb7';
+}
+.ki-password-check .path4:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\edb8';
+}
+.ki-password-check .path5:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\edb9';
+}
+.ki-paypal .path1:before {
+  content: '\edba';
+}
+.ki-paypal .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\edbb';
+}
+.ki-pencil .path1:before {
+  opacity: 0.3;
+  content: '\edbc';
+}
+.ki-pencil .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\edbd';
+}
+.ki-people .path1:before {
+  content: '\edbe';
+}
+.ki-people .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\edbf';
+}
+.ki-people .path3:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\edc0';
+}
+.ki-people .path4:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\edc1';
+}
+.ki-people .path5:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\edc2';
+}
+.ki-percentage .path1:before {
+  content: '\edc3';
+}
+.ki-percentage .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\edc4';
+}
+.ki-phone .path1:before {
+  opacity: 0.3;
+  content: '\edc5';
+}
+.ki-phone .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\edc6';
+}
+.ki-photoshop .path1:before {
+  opacity: 0.3;
+  content: '\edc7';
+}
+.ki-photoshop .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\edc8';
+}
+.ki-picture .path1:before {
+  opacity: 0.3;
+  content: '\edc9';
+}
+.ki-picture .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\edca';
+}
+.ki-pill:before {
+  content: '\edcb';
+}
+.ki-pin .path1:before {
+  opacity: 0.3;
+  content: '\edcc';
+}
+.ki-pin .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\edcd';
+}
+.ki-plus-circle .path1:before {
+  opacity: 0.3;
+  content: '\edce';
+}
+.ki-plus-circle .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\edcf';
+}
+.ki-plus-square .path1:before {
+  opacity: 0.3;
+  content: '\edd0';
+}
+.ki-plus-square .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\edd1';
+}
+.ki-plus-square .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\edd2';
+}
+.ki-plus:before {
+  content: '\edd3';
+}
+.ki-pointers .path1:before {
+  opacity: 0.3;
+  content: '\edd4';
+}
+.ki-pointers .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\edd5';
+}
+.ki-pointers .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\edd6';
+}
+.ki-price-tag .path1:before {
+  opacity: 0.3;
+  content: '\edd7';
+}
+.ki-price-tag .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\edd8';
+}
+.ki-price-tag .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\edd9';
+}
+.ki-printer .path1:before {
+  opacity: 0.3;
+  content: '\edda';
+}
+.ki-printer .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\eddb';
+}
+.ki-printer .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\eddc';
+}
+.ki-printer .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\eddd';
+}
+.ki-printer .path5:before {
+  position: absolute;
+  left: 0;
+  content: '\edde';
+}
+.ki-profile-circle .path1:before {
+  opacity: 0.3;
+  content: '\eddf';
+}
+.ki-profile-circle .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ede0';
+}
+.ki-profile-circle .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ede1';
+}
+.ki-profile-user .path1:before {
+  opacity: 0.3;
+  content: '\ede2';
+}
+.ki-profile-user .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ede3';
+}
+.ki-profile-user .path3:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ede4';
+}
+.ki-profile-user .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\ede5';
+}
+.ki-pulse .path1:before {
+  opacity: 0.3;
+  content: '\ede6';
+}
+.ki-pulse .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ede7';
+}
+.ki-purchase .path1:before {
+  opacity: 0.3;
+  content: '\ede8';
+}
+.ki-purchase .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ede9';
+}
+.ki-python .path1:before {
+  opacity: 0.3;
+  content: '\edea';
+}
+.ki-python .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\edeb';
+}
+.ki-question-2 .path1:before {
+  opacity: 0.3;
+  content: '\edec';
+}
+.ki-question-2 .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\eded';
+}
+.ki-question-2 .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\edee';
+}
+.ki-question .path1:before {
+  opacity: 0.3;
+  content: '\edef';
+}
+.ki-question .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\edf0';
+}
+.ki-question .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\edf1';
+}
+.ki-questionnaire-tablet .path1:before {
+  opacity: 0.3;
+  content: '\edf2';
+}
+.ki-questionnaire-tablet .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\edf3';
+}
+.ki-ranking .path1:before {
+  opacity: 0.3;
+  content: '\edf4';
+}
+.ki-ranking .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\edf5';
+}
+.ki-ranking .path3:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\edf6';
+}
+.ki-ranking .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\edf7';
+}
+.ki-react .path1:before {
+  opacity: 0.3;
+  content: '\edf8';
+}
+.ki-react .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\edf9';
+}
+.ki-receipt-square .path1:before {
+  opacity: 0.3;
+  content: '\edfa';
+}
+.ki-receipt-square .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\edfb';
+}
+.ki-rescue .path1:before {
+  opacity: 0.3;
+  content: '\edfc';
+}
+.ki-rescue .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\edfd';
+}
+.ki-right-left .path1:before {
+  content: '\edfe';
+}
+.ki-right-left .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\edff';
+}
+.ki-right-left .path3:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ee00';
+}
+.ki-right-square .path1:before {
+  opacity: 0.3;
+  content: '\ee01';
+}
+.ki-right-square .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ee02';
+}
+.ki-right:before {
+  content: '\ee03';
+}
+.ki-rocket .path1:before {
+  opacity: 0.3;
+  content: '\ee04';
+}
+.ki-rocket .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ee05';
+}
+.ki-route .path1:before {
+  content: '\ee06';
+}
+.ki-route .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ee07';
+}
+.ki-route .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ee08';
+}
+.ki-route .path4:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ee09';
+}
+.ki-router .path1:before {
+  opacity: 0.3;
+  content: '\ee0a';
+}
+.ki-router .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ee0b';
+}
+.ki-row-horizontal .path1:before {
+  content: '\ee0c';
+}
+.ki-row-horizontal .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ee0d';
+}
+.ki-row-vertical .path1:before {
+  content: '\ee0e';
+}
+.ki-row-vertical .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ee0f';
+}
+.ki-safe-home .path1:before {
+  opacity: 0.3;
+  content: '\ee10';
+}
+.ki-safe-home .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ee11';
+}
+.ki-satellite .path1:before {
+  opacity: 0.3;
+  content: '\ee12';
+}
+.ki-satellite .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ee13';
+}
+.ki-satellite .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ee14';
+}
+.ki-satellite .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\ee15';
+}
+.ki-satellite .path5:before {
+  position: absolute;
+  left: 0;
+  content: '\ee16';
+}
+.ki-satellite .path6:before {
+  position: absolute;
+  left: 0;
+  content: '\ee17';
+}
+.ki-save-2 .path1:before {
+  opacity: 0.3;
+  content: '\ee18';
+}
+.ki-save-2 .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ee19';
+}
+.ki-save-deposit .path1:before {
+  content: '\ee1a';
+}
+.ki-save-deposit .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ee1b';
+}
+.ki-save-deposit .path3:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ee1c';
+}
+.ki-save-deposit .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\ee1d';
+}
+.ki-scan-barcode .path1:before {
+  content: '\ee1e';
+}
+.ki-scan-barcode .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ee1f';
+}
+.ki-scan-barcode .path3:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ee20';
+}
+.ki-scan-barcode .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\ee21';
+}
+.ki-scan-barcode .path5:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ee22';
+}
+.ki-scan-barcode .path6:before {
+  position: absolute;
+  left: 0;
+  content: '\ee23';
+}
+.ki-scan-barcode .path7:before {
+  position: absolute;
+  left: 0;
+  content: '\ee24';
+}
+.ki-scan-barcode .path8:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ee25';
+}
+.ki-scooter-2:before {
+  content: '\ee26';
+}
+.ki-scooter .path1:before {
+  content: '\ee27';
+}
+.ki-scooter .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ee28';
+}
+.ki-scooter .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ee29';
+}
+.ki-scooter .path4:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ee2a';
+}
+.ki-scooter .path5:before {
+  position: absolute;
+  left: 0;
+  content: '\ee2b';
+}
+.ki-scooter .path6:before {
+  position: absolute;
+  left: 0;
+  content: '\ee2c';
+}
+.ki-scooter .path7:before {
+  position: absolute;
+  left: 0;
+  content: '\ee2d';
+}
+.ki-screen .path1:before {
+  opacity: 0.3;
+  content: '\ee2e';
+}
+.ki-screen .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ee2f';
+}
+.ki-screen .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ee30';
+}
+.ki-screen .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\ee31';
+}
+.ki-scroll .path1:before {
+  opacity: 0.3;
+  content: '\ee32';
+}
+.ki-scroll .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ee33';
+}
+.ki-scroll .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ee34';
+}
+.ki-search-list .path1:before {
+  opacity: 0.3;
+  content: '\ee35';
+}
+.ki-search-list .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ee36';
+}
+.ki-search-list .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ee37';
+}
+.ki-security-check .path1:before {
+  content: '\ee38';
+}
+.ki-security-check .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ee39';
+}
+.ki-security-check .path3:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ee3a';
+}
+.ki-security-check .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\ee3b';
+}
+.ki-security-user .path1:before {
+  opacity: 0.3;
+  content: '\ee3c';
+}
+.ki-security-user .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ee3d';
+}
+.ki-send .path1:before {
+  content: '\ee3e';
+}
+.ki-send .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ee3f';
+}
+.ki-setting-2 .path1:before {
+  opacity: 0.3;
+  content: '\ee40';
+}
+.ki-setting-2 .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ee41';
+}
+.ki-setting-3 .path1:before {
+  opacity: 0.3;
+  content: '\ee42';
+}
+.ki-setting-3 .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ee43';
+}
+.ki-setting-3 .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ee44';
+}
+.ki-setting-3 .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\ee45';
+}
+.ki-setting-3 .path5:before {
+  position: absolute;
+  left: 0;
+  content: '\ee46';
+}
+.ki-setting-4:before {
+  content: '\ee47';
+}
+.ki-setting .path1:before {
+  opacity: 0.3;
+  content: '\ee48';
+}
+.ki-setting .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ee49';
+}
+.ki-share .path1:before {
+  opacity: 0.3;
+  content: '\ee4a';
+}
+.ki-share .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ee4b';
+}
+.ki-share .path3:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ee4c';
+}
+.ki-share .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\ee4d';
+}
+.ki-share .path5:before {
+  position: absolute;
+  left: 0;
+  content: '\ee4e';
+}
+.ki-share .path6:before {
+  position: absolute;
+  left: 0;
+  content: '\ee4f';
+}
+.ki-shield-cross .path1:before {
+  opacity: 0.3;
+  content: '\ee50';
+}
+.ki-shield-cross .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ee51';
+}
+.ki-shield-cross .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ee52';
+}
+.ki-shield-search .path1:before {
+  opacity: 0.3;
+  content: '\ee53';
+}
+.ki-shield-search .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ee54';
+}
+.ki-shield-search .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ee55';
+}
+.ki-shield-slash .path1:before {
+  content: '\ee56';
+}
+.ki-shield-slash .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ee57';
+}
+.ki-shield-slash .path3:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ee58';
+}
+.ki-shield-tick .path1:before {
+  opacity: 0.3;
+  content: '\ee59';
+}
+.ki-shield-tick .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ee5a';
+}
+.ki-shield .path1:before {
+  opacity: 0.3;
+  content: '\ee5b';
+}
+.ki-shield .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ee5c';
+}
+.ki-ship .path1:before {
+  opacity: 0.3;
+  content: '\ee5d';
+}
+.ki-ship .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ee5e';
+}
+.ki-ship .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ee5f';
+}
+.ki-shop .path1:before {
+  content: '\ee60';
+}
+.ki-shop .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ee61';
+}
+.ki-shop .path3:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ee62';
+}
+.ki-shop .path4:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ee63';
+}
+.ki-shop .path5:before {
+  position: absolute;
+  left: 0;
+  content: '\ee64';
+}
+.ki-simcard-2 .path1:before {
+  opacity: 0.3;
+  content: '\ee65';
+}
+.ki-simcard-2 .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ee66';
+}
+.ki-simcard .path1:before {
+  opacity: 0.3;
+  content: '\ee67';
+}
+.ki-simcard .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ee68';
+}
+.ki-simcard .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ee69';
+}
+.ki-simcard .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\ee6a';
+}
+.ki-simcard .path5:before {
+  position: absolute;
+  left: 0;
+  content: '\ee6b';
+}
+.ki-size .path1:before {
+  opacity: 0.3;
+  content: '\ee6c';
+}
+.ki-size .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ee6d';
+}
+.ki-slack .path1:before {
+  content: '\ee6e';
+}
+.ki-slack .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ee6f';
+}
+.ki-slack .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ee70';
+}
+.ki-slack .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\ee71';
+}
+.ki-slack .path5:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ee72';
+}
+.ki-slack .path6:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ee73';
+}
+.ki-slack .path7:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ee74';
+}
+.ki-slack .path8:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ee75';
+}
+.ki-slider-horizontal-2 .path1:before {
+  content: '\ee76';
+}
+.ki-slider-horizontal-2 .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ee77';
+}
+.ki-slider-horizontal-2 .path3:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ee78';
+}
+.ki-slider-horizontal .path1:before {
+  opacity: 0.3;
+  content: '\ee79';
+}
+.ki-slider-horizontal .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ee7a';
+}
+.ki-slider-horizontal .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ee7b';
+}
+.ki-slider-vertical-2 .path1:before {
+  opacity: 0.3;
+  content: '\ee7c';
+}
+.ki-slider-vertical-2 .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ee7d';
+}
+.ki-slider-vertical-2 .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ee7e';
+}
+.ki-slider-vertical .path1:before {
+  content: '\ee7f';
+}
+.ki-slider-vertical .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ee80';
+}
+.ki-slider-vertical .path3:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ee81';
+}
+.ki-slider .path1:before {
+  opacity: 0.3;
+  content: '\ee82';
+}
+.ki-slider .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ee83';
+}
+.ki-slider .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ee84';
+}
+.ki-slider .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\ee85';
+}
+.ki-sms .path1:before {
+  opacity: 0.3;
+  content: '\ee86';
+}
+.ki-sms .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ee87';
+}
+.ki-snapchat .path1:before {
+  content: '\ee88';
+}
+.ki-snapchat .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ee89';
+}
+.ki-social-media .path1:before {
+  content: '\ee8a';
+}
+.ki-social-media .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ee8b';
+}
+.ki-soft-2 .path1:before {
+  opacity: 0.3;
+  content: '\ee8c';
+}
+.ki-soft-2 .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ee8d';
+}
+.ki-soft-3 .path1:before {
+  content: '\ee8e';
+}
+.ki-soft-3 .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ee8f';
+}
+.ki-soft .path1:before {
+  opacity: 0.3;
+  content: '\ee90';
+}
+.ki-soft .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ee91';
+}
+.ki-soft .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ee92';
+}
+.ki-soft .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\ee93';
+}
+.ki-soft .path5:before {
+  position: absolute;
+  left: 0;
+  content: '\ee94';
+}
+.ki-soft .path6:before {
+  position: absolute;
+  left: 0;
+  content: '\ee95';
+}
+.ki-some-files .path1:before {
+  opacity: 0.3;
+  content: '\ee96';
+}
+.ki-some-files .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ee97';
+}
+.ki-sort .path1:before {
+  opacity: 0.3;
+  content: '\ee98';
+}
+.ki-sort .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ee99';
+}
+.ki-sort .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ee9a';
+}
+.ki-sort .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\ee9b';
+}
+.ki-speaker .path1:before {
+  opacity: 0.3;
+  content: '\ee9c';
+}
+.ki-speaker .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ee9d';
+}
+.ki-speaker .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ee9e';
+}
+.ki-spotify .path1:before {
+  content: '\ee9f';
+}
+.ki-spotify .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eea0';
+}
+.ki-spring-framework:before {
+  content: '\eea1';
+}
+.ki-square-brackets .path1:before {
+  opacity: 0.3;
+  content: '\eea2';
+}
+.ki-square-brackets .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\eea3';
+}
+.ki-square-brackets .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\eea4';
+}
+.ki-square-brackets .path4:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eea5';
+}
+.ki-star:before {
+  content: '\eea6';
+}
+.ki-status .path1:before {
+  opacity: 0.3;
+  content: '\eea7';
+}
+.ki-status .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eea8';
+}
+.ki-status .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\eea9';
+}
+.ki-subtitle .path1:before {
+  opacity: 0.3;
+  content: '\eeaa';
+}
+.ki-subtitle .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\eeab';
+}
+.ki-subtitle .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\eeac';
+}
+.ki-subtitle .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\eead';
+}
+.ki-subtitle .path5:before {
+  position: absolute;
+  left: 0;
+  content: '\eeae';
+}
+.ki-sun .path1:before {
+  content: '\eeaf';
+}
+.ki-sun .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\eeb0';
+}
+.ki-sun .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\eeb1';
+}
+.ki-sun .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\eeb2';
+}
+.ki-sun .path5:before {
+  position: absolute;
+  left: 0;
+  content: '\eeb3';
+}
+.ki-sun .path6:before {
+  position: absolute;
+  left: 0;
+  content: '\eeb4';
+}
+.ki-sun .path7:before {
+  position: absolute;
+  left: 0;
+  content: '\eeb5';
+}
+.ki-sun .path8:before {
+  position: absolute;
+  left: 0;
+  content: '\eeb6';
+}
+.ki-sun .path9:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eeb7';
+}
+.ki-support-24 .path1:before {
+  opacity: 0.3;
+  content: '\eeb8';
+}
+.ki-support-24 .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\eeb9';
+}
+.ki-support-24 .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\eeba';
+}
+.ki-switch .path1:before {
+  content: '\eebb';
+}
+.ki-switch .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eebc';
+}
+.ki-syringe .path1:before {
+  opacity: 0.3;
+  content: '\eebd';
+}
+.ki-syringe .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\eebe';
+}
+.ki-syringe .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\eebf';
+}
+.ki-tablet-book .path1:before {
+  opacity: 0.3;
+  content: '\eec0';
+}
+.ki-tablet-book .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\eec1';
+}
+.ki-tablet-delete .path1:before {
+  content: '\eec2';
+}
+.ki-tablet-delete .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eec3';
+}
+.ki-tablet-delete .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\eec4';
+}
+.ki-tablet-down .path1:before {
+  opacity: 0.3;
+  content: '\eec5';
+}
+.ki-tablet-down .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\eec6';
+}
+.ki-tablet-down .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\eec7';
+}
+.ki-tablet-ok .path1:before {
+  content: '\eec8';
+}
+.ki-tablet-ok .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eec9';
+}
+.ki-tablet-ok .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\eeca';
+}
+.ki-tablet-text-down .path1:before {
+  content: '\eecb';
+}
+.ki-tablet-text-down .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\eecc';
+}
+.ki-tablet-text-down .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\eecd';
+}
+.ki-tablet-text-down .path4:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eece';
+}
+.ki-tablet-text-up .path1:before {
+  content: '\eecf';
+}
+.ki-tablet-text-up .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eed0';
+}
+.ki-tablet-up .path1:before {
+  opacity: 0.3;
+  content: '\eed1';
+}
+.ki-tablet-up .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\eed2';
+}
+.ki-tablet-up .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\eed3';
+}
+.ki-tablet .path1:before {
+  opacity: 0.3;
+  content: '\eed4';
+}
+.ki-tablet .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\eed5';
+}
+.ki-tablet .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\eed6';
+}
+.ki-tag-cross .path1:before {
+  opacity: 0.3;
+  content: '\eed7';
+}
+.ki-tag-cross .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\eed8';
+}
+.ki-tag-cross .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\eed9';
+}
+.ki-tag .path1:before {
+  opacity: 0.3;
+  content: '\eeda';
+}
+.ki-tag .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\eedb';
+}
+.ki-tag .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\eedc';
+}
+.ki-teacher .path1:before {
+  opacity: 0.3;
+  content: '\eedd';
+}
+.ki-teacher .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\eede';
+}
+.ki-tech-wifi .path1:before {
+  opacity: 0.3;
+  content: '\eedf';
+}
+.ki-tech-wifi .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\eee0';
+}
+.ki-technology-2 .path1:before {
+  opacity: 0.3;
+  content: '\eee1';
+}
+.ki-technology-2 .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\eee2';
+}
+.ki-technology-3 .path1:before {
+  content: '\eee3';
+}
+.ki-technology-3 .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eee4';
+}
+.ki-technology-3 .path3:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eee5';
+}
+.ki-technology-3 .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\eee6';
+}
+.ki-technology-4 .path1:before {
+  content: '\eee7';
+}
+.ki-technology-4 .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eee8';
+}
+.ki-technology-4 .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\eee9';
+}
+.ki-technology-4 .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\eeea';
+}
+.ki-technology-4 .path5:before {
+  position: absolute;
+  left: 0;
+  content: '\eeeb';
+}
+.ki-technology-4 .path6:before {
+  position: absolute;
+  left: 0;
+  content: '\eeec';
+}
+.ki-technology-4 .path7:before {
+  position: absolute;
+  left: 0;
+  content: '\eeed';
+}
+.ki-technology .path1:before {
+  content: '\eeee';
+}
+.ki-technology .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eeef';
+}
+.ki-technology .path3:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eef0';
+}
+.ki-technology .path4:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eef1';
+}
+.ki-technology .path5:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eef2';
+}
+.ki-technology .path6:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eef3';
+}
+.ki-technology .path7:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eef4';
+}
+.ki-technology .path8:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eef5';
+}
+.ki-technology .path9:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eef6';
+}
+.ki-telephone-geolocation .path1:before {
+  content: '\eef7';
+}
+.ki-telephone-geolocation .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eef8';
+}
+.ki-telephone-geolocation .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\eef9';
+}
+.ki-test-tubes .path1:before {
+  opacity: 0.3;
+  content: '\eefa';
+}
+.ki-test-tubes .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\eefb';
+}
+.ki-text-align-center .path1:before {
+  content: '\eefc';
+}
+.ki-text-align-center .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\eefd';
+}
+.ki-text-align-center .path3:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eefe';
+}
+.ki-text-align-center .path4:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\eeff';
+}
+.ki-text-align-justify-center .path1:before {
+  content: '\ef00';
+}
+.ki-text-align-justify-center .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ef01';
+}
+.ki-text-align-justify-center .path3:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ef02';
+}
+.ki-text-align-justify-center .path4:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ef03';
+}
+.ki-text-align-left .path1:before {
+  content: '\ef04';
+}
+.ki-text-align-left .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ef05';
+}
+.ki-text-align-left .path3:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ef06';
+}
+.ki-text-align-left .path4:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ef07';
+}
+.ki-text-align-right .path1:before {
+  content: '\ef08';
+}
+.ki-text-align-right .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ef09';
+}
+.ki-text-align-right .path3:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ef0a';
+}
+.ki-text-align-right .path4:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ef0b';
+}
+.ki-text-bold .path1:before {
+  opacity: 0.3;
+  content: '\ef0c';
+}
+.ki-text-bold .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ef0d';
+}
+.ki-text-bold .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ef0e';
+}
+.ki-text-circle .path1:before {
+  content: '\ef0f';
+}
+.ki-text-circle .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ef10';
+}
+.ki-text-circle .path3:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ef11';
+}
+.ki-text-circle .path4:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ef12';
+}
+.ki-text-circle .path5:before {
+  position: absolute;
+  left: 0;
+  content: '\ef13';
+}
+.ki-text-circle .path6:before {
+  position: absolute;
+  left: 0;
+  content: '\ef14';
+}
+.ki-text-italic .path1:before {
+  opacity: 0.3;
+  content: '\ef15';
+}
+.ki-text-italic .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ef16';
+}
+.ki-text-italic .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ef17';
+}
+.ki-text-italic .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\ef18';
+}
+.ki-text-number .path1:before {
+  content: '\ef19';
+}
+.ki-text-number .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ef1a';
+}
+.ki-text-number .path3:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ef1b';
+}
+.ki-text-number .path4:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ef1c';
+}
+.ki-text-number .path5:before {
+  position: absolute;
+  left: 0;
+  content: '\ef1d';
+}
+.ki-text-number .path6:before {
+  position: absolute;
+  left: 0;
+  content: '\ef1e';
+}
+.ki-text-strikethrough .path1:before {
+  opacity: 0.3;
+  content: '\ef1f';
+}
+.ki-text-strikethrough .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ef20';
+}
+.ki-text-strikethrough .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ef21';
+}
+.ki-text-underline .path1:before {
+  opacity: 0.3;
+  content: '\ef22';
+}
+.ki-text-underline .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ef23';
+}
+.ki-text-underline .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ef24';
+}
+.ki-text:before {
+  content: '\ef25';
+}
+.ki-thermometer .path1:before {
+  opacity: 0.3;
+  content: '\ef26';
+}
+.ki-thermometer .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ef27';
+}
+.ki-theta .path1:before {
+  content: '\ef28';
+}
+.ki-theta .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ef29';
+}
+.ki-tiktok .path1:before {
+  opacity: 0.3;
+  content: '\ef2a';
+}
+.ki-tiktok .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ef2b';
+}
+.ki-time .path1:before {
+  opacity: 0.3;
+  content: '\ef2c';
+}
+.ki-time .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ef2d';
+}
+.ki-timer .path1:before {
+  opacity: 0.3;
+  content: '\ef2e';
+}
+.ki-timer .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ef2f';
+}
+.ki-timer .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ef30';
+}
+.ki-to-left:before {
+  content: '\ef31';
+}
+.ki-to-right:before {
+  content: '\ef32';
+}
+.ki-toggle-off-circle .path1:before {
+  opacity: 0.3;
+  content: '\ef33';
+}
+.ki-toggle-off-circle .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ef34';
+}
+.ki-toggle-off .path1:before {
+  opacity: 0.3;
+  content: '\ef35';
+}
+.ki-toggle-off .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ef36';
+}
+.ki-toggle-on-circle .path1:before {
+  opacity: 0.3;
+  content: '\ef37';
+}
+.ki-toggle-on-circle .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ef38';
+}
+.ki-toggle-on .path1:before {
+  opacity: 0.3;
+  content: '\ef39';
+}
+.ki-toggle-on .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ef3a';
+}
+.ki-trailer .path1:before {
+  content: '\ef3b';
+}
+.ki-trailer .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ef3c';
+}
+.ki-trailer .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ef3d';
+}
+.ki-trailer .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\ef3e';
+}
+.ki-trailer .path5:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ef3f';
+}
+.ki-trash-square .path1:before {
+  opacity: 0.3;
+  content: '\ef40';
+}
+.ki-trash-square .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ef41';
+}
+.ki-trash-square .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ef42';
+}
+.ki-trash-square .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\ef43';
+}
+.ki-trash .path1:before {
+  opacity: 0.3;
+  content: '\ef44';
+}
+.ki-trash .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ef45';
+}
+.ki-trash .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ef46';
+}
+.ki-trash .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\ef47';
+}
+.ki-trash .path5:before {
+  position: absolute;
+  left: 0;
+  content: '\ef48';
+}
+.ki-tree .path1:before {
+  opacity: 0.3;
+  content: '\ef49';
+}
+.ki-tree .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ef4a';
+}
+.ki-tree .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ef4b';
+}
+.ki-trello .path1:before {
+  opacity: 0.3;
+  content: '\ef4c';
+}
+.ki-trello .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ef4d';
+}
+.ki-trello .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ef4e';
+}
+.ki-triangle .path1:before {
+  content: '\ef4f';
+}
+.ki-triangle .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ef50';
+}
+.ki-triangle .path3:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ef51';
+}
+.ki-truck .path1:before {
+  content: '\ef52';
+}
+.ki-truck .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ef53';
+}
+.ki-truck .path3:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ef54';
+}
+.ki-truck .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\ef55';
+}
+.ki-truck .path5:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ef56';
+}
+.ki-ts .path1:before {
+  opacity: 0.3;
+  content: '\ef57';
+}
+.ki-ts .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ef58';
+}
+.ki-ts .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ef59';
+}
+.ki-twitch .path1:before {
+  opacity: 0.3;
+  content: '\ef5a';
+}
+.ki-twitch .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ef5b';
+}
+.ki-twitch .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ef5c';
+}
+.ki-twitter .path1:before {
+  opacity: 0.3;
+  content: '\ef5d';
+}
+.ki-twitter .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ef5e';
+}
+.ki-two-credit-cart .path1:before {
+  content: '\ef5f';
+}
+.ki-two-credit-cart .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ef60';
+}
+.ki-two-credit-cart .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ef61';
+}
+.ki-two-credit-cart .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\ef62';
+}
+.ki-two-credit-cart .path5:before {
+  position: absolute;
+  left: 0;
+  content: '\ef63';
+}
+.ki-underlining .path1:before {
+  opacity: 0.3;
+  content: '\ef64';
+}
+.ki-underlining .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ef65';
+}
+.ki-underlining .path3:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ef66';
+}
+.ki-up-down .path1:before {
+  opacity: 0.3;
+  content: '\ef67';
+}
+.ki-up-down .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ef68';
+}
+.ki-up-down .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ef69';
+}
+.ki-up-square .path1:before {
+  opacity: 0.3;
+  content: '\ef6a';
+}
+.ki-up-square .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ef6b';
+}
+.ki-up:before {
+  content: '\ef6c';
+}
+.ki-update-file .path1:before {
+  opacity: 0.3;
+  content: '\ef6d';
+}
+.ki-update-file .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ef6e';
+}
+.ki-update-file .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ef6f';
+}
+.ki-update-file .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\ef70';
+}
+.ki-update-folder .path1:before {
+  opacity: 0.3;
+  content: '\ef71';
+}
+.ki-update-folder .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ef72';
+}
+.ki-user-edit .path1:before {
+  content: '\ef73';
+}
+.ki-user-edit .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ef74';
+}
+.ki-user-edit .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ef75';
+}
+.ki-user-square .path1:before {
+  opacity: 0.3;
+  content: '\ef76';
+}
+.ki-user-square .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ef77';
+}
+.ki-user-square .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ef78';
+}
+.ki-user-tick .path1:before {
+  content: '\ef79';
+}
+.ki-user-tick .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ef7a';
+}
+.ki-user-tick .path3:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ef7b';
+}
+.ki-user .path1:before {
+  opacity: 0.3;
+  content: '\ef7c';
+}
+.ki-user .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ef7d';
+}
+.ki-verify .path1:before {
+  opacity: 0.3;
+  content: '\ef7e';
+}
+.ki-verify .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ef7f';
+}
+.ki-vibe .path1:before {
+  content: '\ef80';
+}
+.ki-vibe .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ef81';
+}
+.ki-virus .path1:before {
+  opacity: 0.3;
+  content: '\ef82';
+}
+.ki-virus .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ef83';
+}
+.ki-virus .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ef84';
+}
+.ki-vue .path1:before {
+  opacity: 0.3;
+  content: '\ef85';
+}
+.ki-vue .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ef86';
+}
+.ki-vuesax .path1:before {
+  content: '\ef87';
+}
+.ki-vuesax .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.4;
+  content: '\ef88';
+}
+.ki-vuesax .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ef89';
+}
+.ki-wallet .path1:before {
+  opacity: 0.3;
+  content: '\ef8a';
+}
+.ki-wallet .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ef8b';
+}
+.ki-wallet .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ef8c';
+}
+.ki-wallet .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\ef8d';
+}
+.ki-wanchain .path1:before {
+  content: '\ef8e';
+}
+.ki-wanchain .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ef8f';
+}
+.ki-watch .path1:before {
+  opacity: 0.3;
+  content: '\ef90';
+}
+.ki-watch .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ef91';
+}
+.ki-whatsapp .path1:before {
+  opacity: 0.4;
+  content: '\ef92';
+}
+.ki-whatsapp .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ef93';
+}
+.ki-wifi-home .path1:before {
+  opacity: 0.3;
+  content: '\ef94';
+}
+.ki-wifi-home .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ef95';
+}
+.ki-wifi-home .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ef96';
+}
+.ki-wifi-home .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\ef97';
+}
+.ki-wifi-square .path1:before {
+  opacity: 0.3;
+  content: '\ef98';
+}
+.ki-wifi-square .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\ef99';
+}
+.ki-wifi-square .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\ef9a';
+}
+.ki-wifi-square .path4:before {
+  position: absolute;
+  left: 0;
+  content: '\ef9b';
+}
+.ki-wifi .path1:before {
+  content: '\ef9c';
+}
+.ki-wifi .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ef9d';
+}
+.ki-wifi .path3:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ef9e';
+}
+.ki-wifi .path4:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\ef9f';
+}
+.ki-wrench .path1:before {
+  opacity: 0.3;
+  content: '\efa0';
+}
+.ki-wrench .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\efa1';
+}
+.ki-xaomi .path1:before {
+  content: '\efa2';
+}
+.ki-xaomi .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\efa3';
+}
+.ki-xd .path1:before {
+  opacity: 0.3;
+  content: '\efa4';
+}
+.ki-xd .path2:before {
+  position: absolute;
+  left: 0;
+  content: '\efa5';
+}
+.ki-xd .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\efa6';
+}
+.ki-xmr .path1:before {
+  content: '\efa7';
+}
+.ki-xmr .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\efa8';
+}
+.ki-yii .path1:before {
+  opacity: 0.3;
+  content: '\efa9';
+}
+.ki-yii .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\efaa';
+}
+.ki-yii .path3:before {
+  position: absolute;
+  left: 0;
+  content: '\efab';
+}
+.ki-youtube .path1:before {
+  content: '\efac';
+}
+.ki-youtube .path2:before {
+  position: absolute;
+  left: 0;
+
+  opacity: 0.3;
+  content: '\efad';
+}
+
+.ki-duotone i {
+  font-style: normal;
+}

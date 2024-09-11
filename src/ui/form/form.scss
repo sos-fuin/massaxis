@@ -1,0 +1,62 @@
+.form-box1 {
+  .form-input1 {
+    display: flex;
+    position: relative;
+    align-items: center;
+    z-index: 1;
+    backdrop-filter: blur(17.5px);
+    outline: none;
+    border: 1.2px solid #101132;
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient(80deg, rgba(0, 0, 0, 0.2) 88.86%, rgba(0, 0, 0, 0.2) 98.05%);
+    padding: 15px 15px 19px 23px;
+    width: 100%;
+    color: #ffffff;
+
+    &:-webkit-autofill,
+    &:-webkit-autofill:hover,
+    &:-webkit-autofill:active,
+    &:-webkit-autofill:focus {
+      -webkit-text-fill-color: #ffffff !important;
+      transition: background-color 5000s ease-in-out 0s !important;
+    }
+
+    option {
+      background: #101132;
+      color: #fff;
+      font-size: 18px;
+    }
+    &:focus {
+      outline: none;
+    }
+
+    &::placeholder {
+      color: #726d9b;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 120%; /* 19.2px */
+      font-family: Sora;
+      letter-spacing: -0.16px;
+    }
+
+    // &.outline {
+    // }
+    &.gradient {
+      backdrop-filter: blur(4.960194110870361px);
+      border: 0.848px solid rgba(255, 255, 255, 0.07);
+      border-radius: var(--space-size-space-02, 8px);
+      background: linear-gradient(137deg, rgba(27, 28, 54, 0.16) 23.98%, rgba(112, 113, 122, 0.16) 65.73%);
+      width: 100%;
+      color: #d8d8d8;
+      &:focus {
+        backdrop-filter: blur(4.960194110870361px);
+        border: 0.848px solid var(--s, #1e20af);
+        border-radius: var(--space-size-space-02, 8px);
+        background: linear-gradient(137deg, rgba(27, 28, 54, 0.16) 23.98%, rgba(112, 113, 122, 0.16) 65.73%);
+        color: #fff;
+      }
+    }
+  }
+}

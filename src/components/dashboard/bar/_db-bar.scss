@@ -1,0 +1,93 @@
+.db-bar {
+  position: relative;
+  padding-left: 22px;
+  font-size: 15px;
+  font-family: Inter;
+  &::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    border-radius: 3px;
+    background: #e1e3ea;
+    width: 12px;
+    height: 100%;
+    content: '';
+  }
+
+  &.default {
+    &::before {
+      background: #e1e3ea;
+    }
+  }
+  &.primary {
+    &::before {
+      background: #3e97ff;
+    }
+  }
+  &.secondary {
+    &::before {
+      background: #f1f1f2;
+    }
+  }
+  &.warning {
+    &::before {
+      background: #ff6f1e;
+    }
+  }
+  &.danger {
+    &::before {
+      background: #f1416c;
+    }
+  }
+  &.success {
+    &::before {
+      background: #50cd89;
+    }
+  }
+
+  &.gap-8px {
+    padding-left: 20px;
+  }
+  &.gap-10px {
+    padding-left: 22px;
+  }
+  &.gap-16px {
+    padding-left: 28px;
+  }
+
+  &.xs {
+    padding-left: 12px;
+    &::before {
+      width: 1px;
+    }
+  }
+  &.sm {
+    padding-left: 13px;
+    &::before {
+      width: 2px;
+    }
+  }
+  &.lg {
+    padding-left: 14px;
+    &::before {
+      width: 3px;
+    }
+  }
+  &.xl {
+    padding-left: 15px;
+    &::before {
+      width: 4px;
+    }
+  }
+  &.xxl {
+    &::before {
+      width: 8px;
+    }
+  }
+  &.xxxl {
+    &::before {
+      width: 12px;
+    }
+  }
+}

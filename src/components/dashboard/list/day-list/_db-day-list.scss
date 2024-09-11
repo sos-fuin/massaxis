@@ -1,0 +1,49 @@
+.db-day-list {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 4px 4px 14px;
+  &:after {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    border-radius: 6px;
+    background: #a5a5a5;
+    width: 4px;
+    height: 100%;
+    content: '';
+  }
+  .left {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+  }
+  &.primary {
+    &:after {
+      background: #090edb;
+    }
+  }
+  &.success {
+    &:after {
+      background: #04b440;
+    }
+  }
+  &.warning {
+    &:after {
+      background: #dfa000;
+    }
+  }
+  &.danger {
+    &:after {
+      background: #f44;
+    }
+  }
+  &.semi-primary {
+    &:after {
+      background: #7239ea;
+    }
+  }
+}

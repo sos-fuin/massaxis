@@ -1,0 +1,98 @@
+.db-text {
+  color: var(--text-color-2);
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  font-family: Inter;
+
+  // text align
+  &.center {
+    text-align: center;
+  }
+  &.left {
+    text-align: left;
+  }
+  &.right {
+    text-align: right;
+  }
+
+  // font size
+  &.s-12 {
+    font-size: 12px;
+  }
+  &.s-14 {
+    font-size: 14px;
+  }
+  &.s-16 {
+    font-size: 16px;
+  }
+  &.s-18 {
+    font-size: 18px;
+  }
+  &.s-20 {
+    font-size: 20px;
+  }
+  &.s-22 {
+    font-size: 22px;
+  }
+  &.s-24 {
+    font-size: 24px;
+  }
+  &.s-28 {
+    font-size: 28px;
+  }
+  &.s-38 {
+    font-size: 38px;
+  }
+
+  // font width
+  &.fw-800 {
+    font-weight: 800;
+  }
+  &.fw-700 {
+    font-weight: 700;
+  }
+  &.fw-600 {
+    font-weight: 600;
+  }
+  &.fw-500 {
+    font-weight: 500;
+  }
+  &.fw-400 {
+    font-weight: 400;
+  }
+
+  // color
+  &.gray,
+  &.secondary {
+    color: var(--text-color-2);
+  }
+  &.gray2,
+  &.secondary2 {
+    color: var(--text-color-3);
+  }
+  &.blue,
+  &.primary {
+    color: var(--blue-light);
+  }
+  &.blue2,
+  &.semi-primary {
+    color: var(--blue-light);
+  }
+  &.black,
+  &.dark {
+    color: var(--text-color);
+  }
+  &.red,
+  &.danger {
+    color: var(--red);
+  }
+  &.yellow,
+  &.warning {
+    color: var(--yellow);
+  }
+  &.green,
+  &.success {
+    color: var(--green);
+  }
+}

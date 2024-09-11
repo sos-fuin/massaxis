@@ -1,0 +1,35 @@
+{
+  "singleQuote": true,
+  "wordWrap": true,
+  "trailingComma": "all",
+  "pluginSearchDirs": false,
+  "organizeImportsSkipDestructiveCodeActions": true,
+  "semi": false,
+  "useTabs": false,
+  "bracketSpacing": true,
+  "bracketSameLine": true,
+  "endOfLine": "auto",
+  "quoteProps": "as-needed",
+  "arrowParens": "always",
+  "printWidth": 120,
+  "htmlWhitespaceSensitivity": "ignore",
+  "singleAttributePerLine": false,
+  "overrides": [
+    {
+      "files": [".*", "*.json", "*.md", "*.toml", "*.yml"],
+      "options": {
+        "useTabs": false
+      }
+    }
+  ],
+  "plugins": ["prettier-plugin-organize-imports", "prettier-plugin-organize-attributes", "prettier-plugin-css-order"],
+  "attributeGroups": ["^class$", "^(id|name)$", "$DEFAULT", "^aria-"],
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto"
+      }
+    ]
+  }
+}

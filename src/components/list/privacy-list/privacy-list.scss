@@ -1,0 +1,55 @@
+.ms-privacy {
+  margin-bottom: 124px;
+  .h-heading {
+    margin-bottom: 20px;
+    color: var(--white-stroke, #fff);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 54px;
+    font-family: Sora;
+    font-feature-settings: 'dlig' on;
+    letter-spacing: 1.12px;
+    .marked {
+      background: linear-gradient(91deg, #e73dc4 0.79%, #1e21e9 47.99%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+
+  .l-desc {
+    color: #cac6dd;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%; /* 33.6px */
+    font-family: Inter;
+  }
+
+  &-list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 40px;
+
+    .h-su-head {
+      margin-bottom: 20px;
+      color: var(--white-stroke, #fff);
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 140%; /* 33.6px */
+      font-family: Inter;
+    }
+
+    .l-dc {
+      color: #cac6dd;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 140%; /* 28px */
+      font-family: Inter;
+    }
+  }
+}

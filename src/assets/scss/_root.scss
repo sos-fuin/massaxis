@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+ul,
+li {
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  user-select: none;
+  text-decoration: none;
+  &:focus-visible {
+    outline: none;
+  }
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  color: inherit;
+  user-select: none;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+  user-select: none;
+}
+
+span {
+  display: inline-flex;
+}
+iframe {
+  width: 100%;
+}
+
+section {
+  // scroll-margin-top: 200px;
+}
+// body .ant-layout,
+// .ant-menu,
+// .ant-layout-sider-trigger,
+// .ant-layout-sider {
+//   background: var(--background-color) !important;
+//   color: var(--text-color) !important;
+// }

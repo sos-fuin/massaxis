@@ -1,0 +1,33 @@
+.ms-pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-top: 34px;
+  .p-item {
+    display: flex;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    background: transparent;
+    width: 36px;
+    height: 36px;
+    color: #7e8299;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px; /* 100% */
+    font-family: Inter;
+    letter-spacing: -0.18px;
+    text-align: center;
+    &.active {
+      background: linear-gradient(88deg, rgba(9, 14, 219, 0.66) -15.78%, rgba(231, 61, 196, 0.66) 102.06%);
+      color: #fff;
+    }
+
+    &.icon {
+      font-size: 28px;
+    }
+  }
+}

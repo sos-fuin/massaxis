@@ -1,0 +1,19 @@
+.chart-area-test {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  .item {
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 10%);
+    border-radius: 5px;
+    padding: 1rem;
+  }
+}
+
+.day-items-calender {
+  padding-bottom: 30px;
+}
+.day-items-lts {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}

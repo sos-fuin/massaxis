@@ -1,0 +1,64 @@
+.db-breadcrumb {
+  &-title {
+    margin-bottom: 5px;
+    .title {
+      color: var(--black);
+      font-style: normal;
+      font-weight: 700;
+      font-size: 22px;
+      font-family: Inter;
+    }
+  }
+
+  &-menu {
+    display: flex;
+    align-items: center;
+    gap: 26px;
+
+    li {
+      position: relative;
+      &:not(:last-child)::after {
+        display: inline-block;
+        position: absolute;
+        top: 4px;
+        margin-right: 4px;
+        margin-left: 4px;
+        background-image: url('./arrow.svg');
+        background-position: center center;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        width: 18.33px;
+        height: 21.59px;
+        content: '';
+      }
+    }
+    .item {
+      color: var(--text-color-2);
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 20px; /* 166.667% */
+      font-family: Inter;
+      letter-spacing: -0.06px;
+
+      &.active {
+        color: var(--blue-light);
+      }
+    }
+  }
+
+  &-text-box {
+    .text {
+      color: var(--text-color-3);
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 14px;
+      font-family: Inter;
+    }
+  }
+
+  @include responsive('sm') {
+    align-items: baseline;
+  }
+}

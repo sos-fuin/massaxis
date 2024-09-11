@@ -1,0 +1,59 @@
+.db-list {
+  border-collapse: collapse;
+  width: 100%;
+  tr {
+    &:not(:last-child) {
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    td {
+      padding: 16px 18px;
+      color: var(--text-color-2);
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 12px;
+      font-family: Inter;
+    }
+  }
+
+  &.dot-border {
+    tr {
+      &:not(:last-child) {
+        border-bottom: 1px dotted var(--border-color);
+      }
+    }
+  }
+  &.remove-padding-first-last-item {
+    tr {
+      td {
+        &:first-child,
+        &:last-child {
+          border: none;
+          padding-right: 0;
+          padding-left: 0;
+        }
+      }
+    }
+  }
+
+  &.padding-y-20 {
+    tr {
+      td {
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+    }
+  }
+
+  &.no-border {
+    tr {
+      border: none;
+
+      td {
+        border: none;
+        padding: 8px 0px;
+      }
+    }
+  }
+}

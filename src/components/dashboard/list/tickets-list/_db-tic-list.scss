@@ -1,0 +1,15 @@
+.DbTicketsList {
+  padding: 14px;
+  &.primary {
+    background: var(--bg-blue);
+  }
+  &.success {
+    background: var(--bg-green);
+  }
+  &.warning {
+    background: var(--bg-yellow);
+  }
+  &.danger {
+    background: var(--bg-red);
+  }
+}

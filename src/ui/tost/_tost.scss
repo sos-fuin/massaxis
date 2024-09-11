@@ -1,0 +1,71 @@
+.ms-tost {
+  display: none;
+  position: fixed;
+  bottom: 10px;
+  left: 20px;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 10px;
+  z-index: 999;
+  backdrop-filter: blur(26px);
+  cursor: pointer;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.31);
+  border-bottom: 3px solid var(--s, #090edb);
+  border-radius: 20px;
+  background: linear-gradient(80deg, #060c27, #1c366e);
+  padding: 20px 20px 20px 32px;
+  width: 367px;
+  height: 153px;
+
+  @include responsive('sm') {
+    left: 0;
+    gap: 5px;
+    padding: 10px 10px 10px 20px;
+    width: 270px;
+    height: 130px;
+  }
+
+  &.active {
+    display: flex;
+  }
+  &-title {
+    .title {
+      margin-bottom: 8px;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 22px;
+      line-height: normal;
+      font-family: Sora;
+
+      @include responsive('sm') {
+        font-size: 16px;
+      }
+    }
+    .text {
+      color: #cac6dd;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: normal;
+      font-family: Inter;
+
+      @include responsive('sm') {
+        font-size: 14px;
+      }
+    }
+  }
+  &-time {
+    color: #cac6dd;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: normal;
+    font-family: Inter;
+
+    @include responsive('sm') {
+      font-size: 14px;
+    }
+  }
+}

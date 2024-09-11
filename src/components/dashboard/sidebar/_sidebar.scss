@@ -1,0 +1,185 @@
+.ms-sidebar-db {
+  display: flex;
+
+  .db-b-mobile {
+    display: none;
+    &-icon {
+      display: inline-flex;
+      color: var(--text-color-1);
+      font-size: 32px;
+    }
+    @include responsive('xlg') {
+      display: block;
+    }
+  }
+
+  .ms-sidebar {
+    flex-shrink: 0;
+    gap: 20px;
+    border-right: 1px solid var(--border-color);
+    padding: 0 25px;
+    width: 300px;
+
+    @include responsive('xxl') {
+      padding: 0 16px;
+      width: 250px;
+    }
+
+    @include responsive('xl') {
+      width: 220px;
+    }
+    @include responsive('xlg') {
+      display: none;
+    }
+
+    .ms-sidebar-logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 15px 0;
+
+      @include responsive('xxl') {
+        padding: 10px 0;
+      }
+      .img {
+        img {
+          width: 52px;
+          height: 52px;
+
+          @include responsive('xxl') {
+            width: 40px;
+            height: 40px;
+          }
+        }
+      }
+      .text-ar {
+        .title {
+          color: var(--black);
+          font-style: normal;
+          font-weight: 800;
+          font-size: 17px;
+          line-height: normal;
+          font-family: Sora;
+          letter-spacing: 0.51px;
+
+          @include responsive('xxl') {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+
+  .ms-main {
+    flex: 1;
+    flex-shrink: 0;
+    width: 100%;
+  }
+  .ms-db-link {
+    margin-top: 20px;
+  }
+  .ms-db-menu-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    gap: 10px;
+    transition: all 0.3s ease;
+    border-radius: 12px;
+    padding: 12px 10px;
+    width: 100%;
+    .dropdown-arrow {
+      color: var(--text-color-2);
+      font-size: 16px;
+      &.open {
+        color: var(--blue);
+      }
+    }
+    @include responsive('xxl') {
+      border-radius: 8px;
+      padding: 8px 10px;
+    }
+
+    .content-ar {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      .icon {
+        transition: all 0.3s ease;
+        color: var(--black);
+        font-size: 20px;
+
+        @include responsive('xxl') {
+          font-size: 16px;
+        }
+      }
+      .txt {
+        color: var(--text-color-2);
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 14px; /* 100% */
+
+        /* Body/B-14-14-600 */
+        font-family: Inter;
+
+        @include responsive('xxl') {
+          font-size: 14px;
+        }
+      }
+    }
+
+    &.active,
+    &:hover {
+      background: var(--background-color-2);
+      .icon {
+        color: var(--blue);
+      }
+    }
+  }
+
+  .ms-db-menus {
+    .ms-db-menu-title {
+      margin-top: 10px;
+      margin-bottom: 5px;
+      color: var(--text-color-3);
+      font-style: normal;
+      font-weight: 600;
+      font-size: 13px;
+      line-height: 22px; /* 169.231% */
+
+      /* Body/Body 8 */
+      font-family: Inter;
+    }
+    .ms-db-dropdown-sub-menus {
+      display: flex;
+      flex-direction: column;
+      margin-left: 20px;
+      .ms-db-sub-menu-link {
+        display: block;
+        border-left: 2px solid var(--border-color);
+        padding: 12px 20px;
+        color: var(--LightMode-Grey-Grey-700, #4b5675);
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 14px; /* 107.692% */
+        /* Body/B-13-14-500 */
+        font-family: Inter;
+        letter-spacing: -0.13px;
+      }
+    }
+  }
+
+  &.show-mobile {
+    .ms-sidebar {
+      display: block;
+      width: 100%;
+    }
+  }
+}
+.db-sidebar-drawer {
+  .ant-drawer-body {
+    padding: 0 !important;
+  }
+}

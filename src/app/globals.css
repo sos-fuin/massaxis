@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sora:wght@100..800&display=swap');
+@import '../assets/keenicons/duotone/style.css';
+@import '../assets/keenicons/outline/style.css';
+@import '../assets/keenicons/solid/style.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base (light theme) */
+:root {
+  --main-bg: #fafafb;
+  --background-color: #fff;
+  --background-color-2: #f9f9f9;
+  --background-color-3: #f1f1f2;
+  --background-color-4: #dbdfe9;
+
+  --text-color: #080921;
+  --text-color-2: #4b5675;
+  --text-color-3: #99a1b7;
+
+  --border-color: #f1f1f4;
+  --border-color2: #dbdfe9;
+
+  --black: #000;
+
+  --blue: #090edb;
+  --bg-blue: #eef6ff;
+
+  --red: #f1416c;
+  --bg-red: #fff5f8;
+
+  --yellow: #f6c000;
+  --bg-yellow: #fff8dd;
+
+  --green: #50cd89;
+  --bg-green: #e8fff3;
+
+  --blue-light: #1b84ff;
+
+  --box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.03);
+}
+
+/* Dark theme */
+.dark {
+  --background-color: #080921;
+  --main-bg: #080921;
+  --background-color-2: #00034f;
+  --background-color-3: #262831;
+  --background-color-4: #3b3d6c;
+
+  --text-color: #e9e9e9;
+  --text-color-2: #d4d6db;
+  --text-color-3: #ebecec;
+
+  --border-color: #20203b;
+  --border-color2: #2c2c2c;
+
+  --black: #fff;
+  --blue: #090edb;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  background: var(--background-color);
+  max-width: 100vw;
+  color: var(--text-color);
+}
+
+/* @media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+} */
+
+/* body {
+  background: linear-gradient(to bottom, transparent, rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+  color: rgb(var(--foreground-rgb));
+} */
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+span {
+  display: inline-flex;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+.ms-container {
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 1360px;
+
+  @media screen and (max-width: 1360px) {
+    padding: 0 10px;
+  }
+}
+
+.d-none {
+  display: none;
+}
+
+.tabs-deals-page-main {
+  display: flex;
+}

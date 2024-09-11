@@ -1,0 +1,25 @@
+.ms-aside-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+  @include responsive('lg') {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+  }
+
+  @include responsive('sm') {
+    grid-template-columns: 1fr;
+  }
+}
+
+.areas-max {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+
+  @include responsive('lg') {
+    grid-template-columns: 1fr;
+  }
+}

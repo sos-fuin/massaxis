@@ -1,0 +1,212 @@
+/*
+	Spacing	Doc: 
+	mt pt py my
+	18px 22px 40px 52px 72px
+
+
+ 
+*/
+// Padding and Margin values
+$spacing-values: (
+  '8': (
+    default: 8px,
+    lg: 6px,
+    md: 4px,
+  ),
+  '10': (
+    default: 10px,
+    lg: 8px,
+    md: 6px,
+  ),
+  '12': (
+    default: 12px,
+    lg: 10px,
+    md: 8px,
+    sm: 6px,
+  ),
+  '14': (
+    default: 14px,
+    lg: 12px,
+    md: 10px,
+  ),
+  '16': (
+    default: 16px,
+    lg: 14px,
+    md: 12px,
+    sm: 8px,
+  ),
+  '18': (
+    default: 18px,
+    lg: 14px,
+    md: 10px,
+  ),
+  '20': (
+    default: 20px,
+    lg: 18px,
+    md: 16px,
+  ),
+  '22': (
+    default: 22px,
+    lg: 18px,
+    md: 14px,
+  ),
+  '24': (
+    default: 24px,
+    lg: 20px,
+    md: 16px,
+    sm: 12px,
+  ),
+  '26': (
+    default: 26px,
+    lg: 22px,
+    md: 18px,
+    sm: 14px,
+  ),
+  '28': (
+    default: 28px,
+    lg: 24px,
+    md: 20px,
+    sm: 16px,
+  ),
+  '30': (
+    default: 30px,
+    lg: 25px,
+    md: 22px,
+    sm: 18px,
+  ),
+  '32': (
+    default: 32px,
+    lg: 26px,
+    md: 24px,
+    sm: 20px,
+  ),
+  '36': (
+    default: 36px,
+    lg: 28px,
+    md: 26px,
+    sm: 22px,
+  ),
+  '40': (
+    default: 40px,
+    xl: 30px,
+    lg: 20px,
+    md: 15px,
+    sm: 10px,
+  ),
+  '48': (
+    default: 48px,
+    xl: 35px,
+    lg: 28px,
+    md: 22px,
+    sm: 18px,
+  ),
+  '52': (
+    default: 52px,
+    xl: 40px,
+    lg: 30px,
+    md: 20px,
+    sm: 15px,
+  ),
+  '56': (
+    default: 56px,
+    xl: 42px,
+    lg: 32px,
+    md: 24px,
+    sm: 18px,
+  ),
+  '70': (
+    default: 70px,
+    xl: 50px,
+    lg: 40px,
+    md: 30px,
+    sm: 20px,
+  ),
+);
+
+// Generate Padding classes
+@each $key, $values in $spacing-values {
+  .pt-#{$key} {
+    padding-top: map-get($values, 'default');
+    @each $breakpoint, $size in $values {
+      @if $breakpoint != 'default' {
+        @include responsive($breakpoint) {
+          padding-top: $size;
+        }
+      }
+    }
+  }
+
+  .pb-#{$key} {
+    padding-bottom: map-get($values, 'default');
+    @each $breakpoint, $size in $values {
+      @if $breakpoint != 'default' {
+        @include responsive($breakpoint) {
+          padding-bottom: $size;
+        }
+      }
+    }
+  }
+
+  .py-#{$key} {
+    padding-top: map-get($values, 'default');
+    padding-bottom: map-get($values, 'default');
+    @each $breakpoint, $size in $values {
+      @if $breakpoint != 'default' {
+        @include responsive($breakpoint) {
+          padding-top: $size;
+          padding-bottom: $size;
+        }
+      }
+    }
+  }
+  .px-#{$key} {
+    padding-right: map-get($values, 'default');
+    padding-left: map-get($values, 'default');
+    @each $breakpoint, $size in $values {
+      @if $breakpoint != 'default' {
+        @include responsive($breakpoint) {
+          padding-right: $size;
+          padding-left: $size;
+        }
+      }
+    }
+  }
+}
+
+// Generate Margin classes
+@each $key, $values in $spacing-values {
+  .mt-#{$key} {
+    margin-top: map-get($values, 'default');
+    @each $breakpoint, $size in $values {
+      @if $breakpoint != 'default' {
+        @include responsive($breakpoint) {
+          margin-top: $size;
+        }
+      }
+    }
+  }
+
+  .mb-#{$key} {
+    margin-bottom: map-get($values, 'default');
+    @each $breakpoint, $size in $values {
+      @if $breakpoint != 'default' {
+        @include responsive($breakpoint) {
+          margin-bottom: $size;
+        }
+      }
+    }
+  }
+
+  .my-#{$key} {
+    margin-top: map-get($values, 'default');
+    margin-bottom: map-get($values, 'default');
+    @each $breakpoint, $size in $values {
+      @if $breakpoint != 'default' {
+        @include responsive($breakpoint) {
+          margin-top: $size;
+          margin-bottom: $size;
+        }
+      }
+    }
+  }
+}

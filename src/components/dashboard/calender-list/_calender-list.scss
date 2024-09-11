@@ -1,0 +1,48 @@
+.db-calender-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.3s all ease;
+  overflow: auto;
+  &-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    cursor: pointer;
+    border-radius: 40px;
+    width: 55px;
+    height: 80px;
+
+    &:hover {
+      border: 1px solid #1b84ff;
+      background: #dcecff;
+    }
+    .d-week {
+      color: #a1a5b7;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: normal;
+      font-family: Inter;
+    }
+    .d-date {
+      color: #3f4254;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: normal;
+      font-family: Inter;
+    }
+    &.active {
+      background: #1b84ff;
+      .d-week {
+        color: #fff;
+      }
+      .d-date {
+        color: #fff;
+      }
+    }
+  }
+}

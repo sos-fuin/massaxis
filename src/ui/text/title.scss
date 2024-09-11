@@ -1,0 +1,94 @@
+.ms-title-xl {
+  color: #cad1e9;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 120%; /* 48px */
+  font-family: Sora;
+  text-align: center;
+}
+.ms-title-xl .ms-highlight {
+  background: linear-gradient(90deg, #f33cc0 35.71%, #4349ff 84.51%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 120%;
+
+  /* Sub Heading */
+  font-family: Sora;
+}
+
+/* ms-heading */
+.ms-heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin-right: auto;
+  margin-bottom: 40px;
+  margin-left: auto;
+  max-width: 606px;
+}
+.ms-heading .h-3 {
+  color: #cad1e9;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 120%; /* 48px */
+
+  /* Sub Heading */
+  font-family: Sora;
+  text-align: center;
+}
+
+.ms-heading .h-3 .marked {
+  background: linear-gradient(90deg, #e73dc4 46.15%, #1e21e9 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 120%;
+
+  /* Sub Heading */
+  font-family: Sora;
+}
+.ms-heading .p-3 {
+  color: #cac6dd;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 140%; /* 33.6px */
+
+  /* paragraph */
+  font-family: Inter;
+  text-align: center;
+}
+
+.ms__paragraph {
+  color: #cac6dd;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%; /* 28px */
+  font-family: Inter;
+}
+.ms__heading {
+  color: #fff;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+  font-family: Sora;
+  &.sm {
+    color: #cad1e9;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 120%;
+  }
+}

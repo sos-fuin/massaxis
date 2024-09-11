@@ -1,0 +1,109 @@
+.ms-alert {
+  display: none;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  flex-shrink: 0;
+  backdrop-filter: blur(5.849999904632568px);
+  border: 1px solid var(--s, #090edb);
+  border-radius: 20px;
+  background: linear-gradient(87deg, #090edb 8.8%, #da24bb 84.38%);
+  padding: 14px;
+  width: 253px;
+  height: 208px;
+  text-align: center;
+  &.active {
+    display: inline-block;
+  }
+  &::after {
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    bottom: 1px;
+    left: 1px;
+    z-index: -1;
+    backdrop-filter: blur(24px);
+    box-shadow: 0px 0px 12px 0px rgba(255, 255, 255, 0.2) inset;
+    border-radius: 20px;
+    background: linear-gradient(2deg, #21223c 7.4%, #0b0b26 98.31%);
+    content: '';
+  }
+
+  .img {
+    text-align: center;
+    img {
+      border-radius: 49px;
+      width: 42px;
+      height: 42px;
+    }
+  }
+
+  .title {
+    color: var(--white-stroke, #fff);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 14px; /* 87.5% */
+    font-family: Inter;
+    font-feature-settings: 'dlig' on;
+  }
+
+  .text {
+    color: var(--white-stroke, #fff);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px; /* 125% */
+    font-family: Inter;
+    font-feature-settings: 'dlig' on;
+  }
+
+  .action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin-top: 22px;
+
+    .btn-primary {
+      display: flex;
+      flex: 1;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      border-radius: 6px;
+      background: var(--LightMode-Primary-Primary, #1b84ff);
+      padding: 13px var(--space-size-space-04, 16px);
+      width: 93px;
+      height: 34px;
+      color: var(--LightMode-Light-Light, var(--white-stroke, #fff));
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 14px; /* 116.667% */
+      font-family: Inter;
+      letter-spacing: -0.12px;
+    }
+
+    .btn-outline {
+      display: flex;
+      flex: 1;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      border: 1px solid var(--Gray-01, #4b5675);
+      border-radius: 6px;
+      padding: 13px var(--space-size-space-04, 16px);
+      width: 79px;
+      height: 34px;
+      color: var(--white-stroke, #fff);
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 14px; /* 116.667% */
+      font-family: Inter;
+      letter-spacing: -0.12px;
+      white-space: nowrap;
+    }
+  }
+}
